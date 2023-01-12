@@ -1,6 +1,6 @@
 <template>
 	<div class="bg-gray-900 w-screen h-screen">
-		<div class="w-full flex flex-col justify-center">
+		<header class="w-full flex flex-col justify-center">
 			<div class="relative w-full flex justify-between p-2 border-b border-gray-500">
 				<div>
 					<NuxtLink to="/">
@@ -32,9 +32,23 @@
 				</div>
 			</div>
 			<img src="/x.png" alt="background" class="h-10">
-		</div>
+		</header>
 
 		<slot />
+
+		<footer>
+
+		</footer>
 	</div>
 
 </template>
+
+<script setup lang="ts">
+
+if (typeof window.ethereum !== 'undefined') {  
+ console.log("Metamask is installed")
+} else {
+  console.log("Metamask is not installed")
+}
+
+</script>
