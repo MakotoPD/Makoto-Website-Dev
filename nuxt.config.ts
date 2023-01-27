@@ -21,8 +21,6 @@ export default defineNuxtConfig({
 			],
 		},
 
-		pageTransition: { name: 'page', mode: 'out-in' },
-		layoutTransition: { name: 'layout', mode: 'out-in' },
 
 	},
 
@@ -30,6 +28,7 @@ export default defineNuxtConfig({
 		'@nuxtjs/tailwindcss',  	//css framework
 		'~/modules/sitemap',		//sitemap creator
 		'@unlighthouse/nuxt',		//lighthouse buided in page, port:5678
+		'@nuxtjs/i18n',				//i18n for multilang page
 	],
 
 	builder: 'vite',			//webpack alternative for nuxtjs/vuejs
@@ -44,7 +43,38 @@ export default defineNuxtConfig({
 		  device: 'desktop', // simulate a desktop device
 		}
 	},
+
+	i18n: {
+		locales: ['en', 'pl'],
+		defaultLocale: 'en',
+		vueI18n: {
+			legacy: false,
+			locale: 'en',
+			messages: {
+			  en: {
+				home: 'Home',
+				portfolio: 'Portfolio',
+				contact: 'Contact',
+				mystack: 'My Stack',
+				blog: 'Blog',
+				login: 'Login',
+				welcome: 'Welcome',
+
+			  },
+			  pl: {
+				home: 'Start',
+				portfolio: 'Portfolio',
+				contact: 'Kontakt',
+				mystack: 'Moje technologie',
+				blog: 'Blog',
+				login: 'Zaloguj się',
+				welcome: 'Witam',
+			  }
+			}
+		  }
+	},
 	
+
 	css: [
 		'@/assets/css/global.css',
 	]

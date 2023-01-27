@@ -13,6 +13,7 @@
     ]
   },
   "devDependencies": {
+    "@nuxtjs/i18n": "^8.0.0-beta.9",
     "@unlighthouse/nuxt": "^0.4.7",
     "nuxt": "3.0.0",
     "sitemap": "^7.1.1"
