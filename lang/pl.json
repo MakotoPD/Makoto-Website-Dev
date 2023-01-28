@@ -6,5 +6,11 @@
 	"menu.blog": "Blog",
 	"menu.login": "Zaloguj się",
 	"welcome": "Witam",
-	"contact": "kontakt strona"
+	"contact": "kontakt strona",
+	"mystack": "Moje technologie",
+
+	"page.home.Welcome.first": "Przyszłością jest",
+	"page.home.Welcome.second": "Piękny",
+	"page.home.Welcome.decorated": "wygląd",
+	"page.home.Welcome.last": "Rób tylko to, co ma znaczenie."
 }

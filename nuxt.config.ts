@@ -47,14 +47,10 @@ export default defineNuxtConfig({
 	i18n: {
 		locales: [
 			{ code: 'en', iso: 'en-US', file: 'en.json' },
-  			{ code: 'pl', iso: 'pl-PL', file: 'pl.json' },
+  			{ code: 'pl', iso: 'pl-PL', file: 'pl.json' }
 		],
-		lazy: true,
   		langDir: 'lang/',
 		defaultLocale: 'en',
-		vueI18n: {
-			legacy: false,
-		  }
 	},
 	
 

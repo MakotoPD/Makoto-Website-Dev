@@ -6,5 +6,12 @@
 	"menu.blog": "Blog",
 	"menu.login": "Login",
 	"welcome": "Welcome",
-	"contact": "contact page"
+	"contact": "contact page",
+	"mystack": "My Stack",
+
+	"page.home.Welcome.first": "Feauture is a",
+	"page.home.Welcome.second": "Awesome",
+	"page.home.Welcome.decorated": "design",
+	"page.home.Welcome.last": "Just do what matters."
+
 }

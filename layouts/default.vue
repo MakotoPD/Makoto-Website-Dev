@@ -12,37 +12,28 @@
 					<NuxtLink :to="localePath('/')">
 						{{ $t('menu.home') }}
 					</NuxtLink>
-					<NuxtLink to="/Portfolio">
+					<NuxtLink :to="localePath('/Portfolio')">
 						{{ $t('menu.portfolio') }}
 					</NuxtLink>
 					<NuxtLink :to="localePath('/Contact')">
 						{{ $t('menu.contact') }}
 					</NuxtLink>
-					<NuxtLink to="/MyStack">
+					<NuxtLink :to="localePath('/MyStack')">
 						{{ $t('menu.mystack') }}
 					</NuxtLink>
-					<NuxtLink to="/Blog">
+					<NuxtLink :to="localePath('/Blog')">
 						{{ $t('menu.blog') }}
 					</NuxtLink>
-					<NuxtLink to="/Login">
-						{{ $t('menu.login') }}
-					</NuxtLink>
 				</div>
-				<div class="absolute right-4 -bottom-8 h-8 w-20 flex justify-center items-center rounded-b-md text-white font-semibold bg-blue-400/90">
-					Beta
+				<div class="absolute right-4 -bottom-8 h-8 w-20 flex justify-center items-center rounded-b-md font-semibold bg-blue-400/90">
+					<select v-model="locale">
+						<option value="en">en</option>
+						<option value="pl">pl</option>
+					</select>
 				</div>
 			</div>
 			<img src="/gradientBG.png" alt="background" class="h-10">
 		</header>
-		<div>
-			<form>
-				<select v-model="locale">
-					<option value="en">en</option>
-					<option value="pl">pl</option>
-				</select>
-				<p class="text-white">{{ $t('welcome') }}</p>
-			</form>
-		</div>
 		<slot />
 
 		<footer>
@@ -54,19 +45,9 @@
 
 <script setup lang="ts">
 import { useI18n, useLocalePath } from '#imports'
+
 const { locale } = useI18n()
 
 const localePath = useLocalePath()
-
-onMounted(() => {
-	
-	if (typeof window.ethereum !== 'undefined') {  
-	console.log("Metamask is installed")
-	console.log(window.ethereum)
-	} else {
-	console.log("Metamask is not installed")
-	}
-})
-
 
 </script>
