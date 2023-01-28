@@ -58,10 +58,15 @@ const { locale } = useI18n()
 
 const localePath = useLocalePath()
 
-if (typeof window.ethereum !== 'undefined') {  
- console.log("Metamask is installed")
-} else {
-  console.log("Metamask is not installed")
-}
+onMounted(() => {
+	
+	if (typeof window.ethereum !== 'undefined') {  
+	console.log("Metamask is installed")
+	console.log(window.ethereum)
+	} else {
+	console.log("Metamask is not installed")
+	}
+})
+
 
 </script>

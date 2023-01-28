@@ -1,3 +1,6 @@
+import pl from './locales/pl.json';
+import en from './locales/en.json';
+
 export default defineNuxtConfig({
 	app:{
 		head: {
@@ -45,31 +48,17 @@ export default defineNuxtConfig({
 	},
 
 	i18n: {
-		locales: ['en', 'pl'],
+		locales: [
+			{ code: 'en', iso: 'en-US' },
+  			{ code: 'pl', iso: 'pl-PL' },
+		],
 		defaultLocale: 'en',
 		vueI18n: {
 			legacy: false,
 			locale: 'en',
 			messages: {
-			  en: {
-				home: 'Home',
-				portfolio: 'Portfolio',
-				contact: 'Contact',
-				mystack: 'My Stack',
-				blog: 'Blog',
-				login: 'Login',
-				welcome: 'Welcome',
-
-			  },
-			  pl: {
-				home: 'Start',
-				portfolio: 'Portfolio',
-				contact: 'Kontakt',
-				mystack: 'Moje technologie',
-				blog: 'Blog',
-				login: 'Zaloguj się',
-				welcome: 'Witam',
-			  }
+				en: en,
+				pl: pl,
 			}
 		  }
 	},
