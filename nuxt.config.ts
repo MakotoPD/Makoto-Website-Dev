@@ -1,6 +1,3 @@
-import pl from './locales/pl.json';
-import en from './locales/en.json';
-
 export default defineNuxtConfig({
 	app:{
 		head: {
@@ -49,17 +46,14 @@ export default defineNuxtConfig({
 
 	i18n: {
 		locales: [
-			{ code: 'en', iso: 'en-US' },
-  			{ code: 'pl', iso: 'pl-PL' },
+			{ code: 'en', iso: 'en-US', file: 'en.json' },
+  			{ code: 'pl', iso: 'pl-PL', file: 'pl.json' },
 		],
+		lazy: true,
+  		langDir: 'lang/',
 		defaultLocale: 'en',
 		vueI18n: {
 			legacy: false,
-			locale: 'en',
-			messages: {
-				en: en,
-				pl: pl,
-			}
 		  }
 	},
 	

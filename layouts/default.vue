@@ -10,22 +10,22 @@
 				</div>
 				<div class="flex flex-nowrap space-x-4 items-center text-gray-400 pr-4">
 					<NuxtLink :to="localePath('/')">
-						{{ $t('home') }}
+						{{ $t('menu.home') }}
 					</NuxtLink>
 					<NuxtLink to="/Portfolio">
-						{{ $t('portfolio') }}
+						{{ $t('menu.portfolio') }}
 					</NuxtLink>
 					<NuxtLink :to="localePath('/Contact')">
-						{{ $t('contact') }}
+						{{ $t('menu.contact') }}
 					</NuxtLink>
 					<NuxtLink to="/MyStack">
-						{{ $t('mystack') }}
+						{{ $t('menu.mystack') }}
 					</NuxtLink>
 					<NuxtLink to="/Blog">
-						{{ $t('blog') }}
+						{{ $t('menu.blog') }}
 					</NuxtLink>
 					<NuxtLink to="/Login">
-						{{ $t('login') }}
+						{{ $t('menu.login') }}
 					</NuxtLink>
 				</div>
 				<div class="absolute right-4 -bottom-8 h-8 w-20 flex justify-center items-center rounded-b-md text-white font-semibold bg-blue-400/90">
