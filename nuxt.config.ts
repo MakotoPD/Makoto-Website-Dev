@@ -29,6 +29,7 @@ export default defineNuxtConfig({
 		'~/modules/sitemap',		//sitemap creator
 		'@unlighthouse/nuxt',		//lighthouse buided in page, port:5678
 		'@nuxtjs/i18n',				//i18n for multilang page
+		'@nuxtjs/strapi',			//strapi
 	],
 
 	builder: 'vite',			//webpack alternative for nuxtjs/vuejs
@@ -53,6 +54,13 @@ export default defineNuxtConfig({
 		defaultLocale: 'en',
 	},
 	
+	strapi: {
+		url: 'http://localhost:1337',
+		prefix: '/api',
+		version: 'v4',
+		cookie: {},
+		cookieName: 'strapi_jwt'
+	},
 
 	css: [
 		'@/assets/css/global.css',

@@ -50,4 +50,10 @@ const { locale } = useI18n()
 
 const localePath = useLocalePath()
 
+
+const token = useStrapiToken()
+
+const cookie = useCookie('strapi_jwt')
+cookie.value = token
+
 </script>
