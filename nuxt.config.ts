@@ -27,7 +27,6 @@ export default defineNuxtConfig({
 	modules: [
 		'@nuxtjs/tailwindcss',  	//css framework
 		'~/modules/sitemap',		//sitemap creator
-		'@unlighthouse/nuxt',		//lighthouse buided in page, port:5678
 		'@nuxtjs/i18n',				//i18n for multilang page
 		'@nuxtjs/strapi',			//strapi
 	],
@@ -38,12 +37,6 @@ export default defineNuxtConfig({
 		hostname: 'https://makoto.click',
 	},
 
-
-	unlighthouse: {
-		scanner: {
-		  device: 'desktop', // simulate a desktop device
-		}
-	},
 
 	i18n: {
 		locales: [
