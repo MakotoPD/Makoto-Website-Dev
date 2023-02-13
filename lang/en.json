@@ -9,9 +9,24 @@
 	"contact": "contact page",
 	"mystack": "My Stack",
 
-	"page.home.Welcome.first": "Feauture is a",
-	"page.home.Welcome.second": "Awesome",
-	"page.home.Welcome.decorated": "design",
-	"page.home.Welcome.last": "Just do what matters."
-
+	"page": {
+		"home": {
+			"Welcome": {
+				"first": "Feauture is a",
+				"second": "Awesome",
+				"decorated": "design",
+				"last": "Just do what matters."
+			},
+			"Props": {
+				"diamond": "With a well-designed website you can count on high profits and access to customers.",
+				"pen": "The logo is the most important, because it is what customers see and what they most associate with.",
+				"meta": "A lot can be achieved with well designed social media images."
+			},
+			"Specifically": {
+				"specifically": "So what do I do specifically?",
+				"frontend": "<Front-end>  developer",
+				"graphic": "Graphic  designer"
+			}
+		}
+	}
 }

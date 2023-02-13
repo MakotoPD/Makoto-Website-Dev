@@ -1,0 +1,30 @@
+body{
+	background-color: rgb(17 24 39);
+	margin: 0;
+	padding: 0;
+}
+
+html, body{
+	overflow-x: hidden;
+}
+
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	background: rgb(39, 52, 82); 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: rgb(82, 102, 146); 
+	border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: rgb(134, 154, 199); 
+  }

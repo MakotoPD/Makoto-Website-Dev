@@ -1,5 +1,5 @@
 <template>
-	<div class="bg-gray-900 w-screen h-screen">
+	<div class="bg-gray-900 w-screen h-full">
 		<NuxtLoadingIndicator color="#4A6AAD"/>
 		<header class="w-full flex flex-col justify-center">
 			<div class="relative w-full flex justify-between p-2 border-b border-gray-500">
@@ -51,9 +51,9 @@ const { locale } = useI18n()
 const localePath = useLocalePath()
 
 
-const token = useStrapiToken()
+// const token = useStrapiToken()
 
-const cookie = useCookie('strapi_jwt')
-cookie.value = token
+// const cookie = useCookie('strapi_jwt')
+// cookie.value = token
 
 </script>

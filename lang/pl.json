@@ -9,8 +9,25 @@
 	"contact": "kontakt strona",
 	"mystack": "Moje technologie",
 
-	"page.home.Welcome.first": "Przyszłością jest",
-	"page.home.Welcome.second": "Piękny",
-	"page.home.Welcome.decorated": "wygląd",
-	"page.home.Welcome.last": "Rób tylko to, co ma znaczenie."
+
+	"page": {
+		"home": {
+			"Welcome": {
+				"first": "Przyszłością jest",
+				"second": "Piękny",
+				"decorated": "wygląd",
+				"last": "Rób tylko to, co ma znaczenie."
+			},
+			"Props": {
+				"diamond": "Dzięki dobrze zaprojektowanej stronie internetowej możesz liczyć na wysokie zyski i dostęp do klientów.",
+				"pen": "Logo jest najważniejsze, bo to właśnie je widzą klienci i to z nim najbardziej kojarzą.",
+				"meta": "Wiele można osiągnąć dzięki dobrze zaprojektowanym zdjęciom w mediach społecznościowych."
+			},
+			"Specifically": {
+				"specifically": "Co więc konkretnie robię?",
+				"frontend": "Programista <Front-end>",
+				"graphic": "Projektant Graficzny"
+			}
+		}
+	}
 }
