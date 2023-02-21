@@ -24,8 +24,25 @@
 			},
 			"Specifically": {
 				"specifically": "So what do I do specifically?",
-				"frontend": "<Front-end>  developer",
-				"graphic": "Graphic  designer"
+				"frontend": "<Front-end> developer",
+				"Frontend": {
+					"main": "I have been creating websites for 6 years. I create them currently in nuxtjs and gatsbyjs. I try my best to make each website look very good.",
+					"ul": [
+						"Build Websites",
+						"Develop Websites",
+						"Update security",
+						"Create SEO"
+					]
+				},
+				"graphic": "Graphic designer",
+				"Graphic": {
+					"main": "I have been working in graphic design for 7 years. I create in programs from Adobe. I feel best in minimalistic style.",
+					"ul": [
+						"Create graphics for social media",
+						"Create logo for you or your company",
+						"Preparation of graphics for printing"
+					]
+				}
 			}
 		}
 	}

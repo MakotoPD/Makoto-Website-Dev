@@ -1,6 +1,6 @@
 <template>
-	<div class="flex flex-col items-center justify-center items-center py-14">
-		<p class="text-7xl font-semibold text-white">{{ $t('page.home.Welcome.first') }}</p>
+	<div class="flex flex-col justify-center items-center py-14">
+		<h1 class="text-7xl font-semibold text-white">{{ $t('page.home.Welcome.first') }}</h1>
 		<div class="mt-4 flex space-x-4">
 			<p class="text-7xl font-semibold text-blue-400">{{ $t('page.home.Welcome.second') }}</p>
 			<p class="text-7xl font-semibold text-blue-400 px-1 pb-4 border border-blue-500/50 relative decorateFirst">

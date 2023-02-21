@@ -26,7 +26,24 @@
 			"Specifically": {
 				"specifically": "Co więc konkretnie robię?",
 				"frontend": "Programista <Front-end>",
-				"graphic": "Projektant Graficzny"
+				"Frontend": {
+					"main": "Zajmuję się tworzeniem stron internetowych od 6 lat. Obecnie tworzę je w nuxtjs i gatsbyjs. Staram się jak najlepiej, aby każda strona wyglądała bardzo dobrze.",
+					"ul": [
+						"Tworze strony www",
+						"Programowanie",
+						"Atualizacje zabezpieczeń",
+						"Tworzenie SEO"
+					]
+				},
+				"graphic": "Projektant Graficzny",
+				"Graphic": {
+					"main": "Zajmuję się projektowaniem graficznym od 7 lat. Tworzę w programach od Adobe. Najlepiej czuję się w stylu minimalistycznym.",
+					"ul": [
+						"Tworzenie grafik do mediów społecznościowych",
+						"Tworzenie logo dla siebie lub swojej firmy",
+						"Przygotowanie grafiki do druku"
+					]
+				}
 			}
 		}
 	}

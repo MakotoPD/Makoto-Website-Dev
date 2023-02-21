@@ -31,6 +31,10 @@ export default defineNuxtConfig({
 		'@nuxtjs/strapi',			//strapi
 	],
 
+	tailwindcss: {
+		configPath: 'tailwind.config',
+	},
+
 	builder: 'vite',			//webpack alternative for nuxtjs/vuejs
 	
 	sitemap: {
