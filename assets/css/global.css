@@ -4,6 +4,10 @@
 
 @tailwind utilities;
 
+*{
+  font-family: Roboto, -apple-system, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
 body{
 	background-color: rgb(17 24 39);
 	margin: 0;

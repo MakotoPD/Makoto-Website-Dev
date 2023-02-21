@@ -79,6 +79,33 @@
 
 			</div>
 		</div>
+
+		<div class="py-36">
+			<div class="text-white flex flex-col space-y-14 items-center justify-center">
+				<h2 class="text-5xl font-semibold">{{ $t('page.home.Support.support') }}</h2>
+
+				<div class="container mx-auto flex border-2 border-gray-600 bg-gray-800 rounded-xl py-12 px-8">
+					<div class="w-full  text-center">
+						<h3 class="text-6xl font-semibold w-10/12 mx-auto">{{ $t('page.home.Support.build') }}</h3>
+					</div>
+					<div class="w-full">
+						<div>
+							<p class="text-2xl mb-4">
+								<span class="text-primary">
+									{{ $t('page.home.Support.Why.why').split(" ").shift() }}
+								</span>
+								{{ $t('page.home.Support.Why.why').split(" ")[1] }}
+								{{ $t('page.home.Support.Why.why').split(" ")[2] }} 
+							</p>
+
+							<p class="text-gray-400">
+								{{ $t('page.home.Support.Why.desc') }}
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 </template>
 

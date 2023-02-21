@@ -25,7 +25,7 @@
 			},
 			"Specifically": {
 				"specifically": "Co więc konkretnie robię?",
-				"frontend": "Programista <Front-end>",
+				"frontend": "<Front-end> Programista",
 				"Frontend": {
 					"main": "Zajmuję się tworzeniem stron internetowych od 6 lat. Obecnie tworzę je w nuxtjs i gatsbyjs. Staram się jak najlepiej, aby każda strona wyglądała bardzo dobrze.",
 					"ul": [
@@ -35,7 +35,7 @@
 						"Tworzenie SEO"
 					]
 				},
-				"graphic": "Projektant Graficzny",
+				"graphic": "Graficzny Projektant",
 				"Graphic": {
 					"main": "Zajmuję się projektowaniem graficznym od 7 lat. Tworzę w programach od Adobe. Najlepiej czuję się w stylu minimalistycznym.",
 					"ul": [
@@ -43,6 +43,14 @@
 						"Tworzenie logo dla siebie lub swojej firmy",
 						"Przygotowanie grafiki do druku"
 					]
+				}
+			},
+			"Support": {
+				"support": "Wsparcie dla małych deweloperów i firm.",
+				"build": "Zbuduj aplikację Open-Source 💙",
+				"Why": {
+					"why": "<Dlaczego> open source",
+					"desc": "Wiem jak to było gdy sam zaczynałem. Open source’owe projekty Często dawały mi inspirację do tworzenia czegoś swojego. Aplikacje open source’owe są tworzone z pomocą społeczności, dla społeczności. Nie zapominajmy"
 				}
 			}
 		}
