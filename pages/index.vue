@@ -29,7 +29,9 @@
 				</div>
 			</div>
 		</div>
-		<div class="py-36">
+		<div class="py-36 relative">
+			<img src="/bg/Ellipse1.png" alt="null" class="absolute right-0 top-0 -translate-y-1/2">
+
 			<div class="text-white flex flex-col space-y-14 items-center justify-center">
 				<h2 class="text-5xl font-semibold">{{ $t('page.home.Specifically.specifically') }}</h2>
 
@@ -104,6 +106,43 @@
 						</div>
 					</div>
 				</div>
+			</div>
+		</div>
+
+		<div class="py-36 relative">
+			<img src="/bg/Ellipse2.png" alt="null" class="absolute left-0 top-40 -translate-y-1/2">
+			<div class="text-white flex flex-col space-y-8 items-center justify-center">
+				<h2 class="text-5xl font-semibold">{{ $t('page.home.Tech.technology') }}</h2>
+
+				<div class="container mx-auto flex justify-center px-8 text-gray-400">
+					<div class="max-w-md py-24 text-xl">
+						{{ $t('page.home.Tech.main') }}
+					</div>
+					<div class="">
+						<img src="/technology.png" alt="technology" class="max-h-96">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="pt-14 pb-36 relative">
+			<div class="text-white">
+				<div class="mx-auto w-fit flex flex-col items-center space-y-8 border-2 border-gray-600 bg-gray-800 rounded-xl py-12 px-8">
+					<h2 class="text-5xl font-bold">{{ $t('page.home.Check.check') }}</h2>
+					<div class="max-w-md text-xl flex space-x-4">
+						<button class="px-3 py-1 bg-gray-300 text-gray-800 rounded-lg flex items-center duration-150 hover:bg-gray-100">{{ $t('page.home.Check.btnPortfolio') }} <i class='ml-2 bx bx-right-arrow-alt'></i></button>
+						<button class="px-3 py-1 bg-gray-300 text-gray-800 rounded-lg flex items-center duration-150 hover:bg-gray-100">{{ $t('page.home.Check.btnBlog') }} <i class='ml-2 bx bx-right-arrow-alt'></i></button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="py-36 bg-gray-700 flex-col items-center">
+			<div>
+
+			</div>
+			<div>
+				
 			</div>
 		</div>
 	</div>

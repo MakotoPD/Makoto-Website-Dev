@@ -52,6 +52,10 @@
 					"why": "<Dlaczego> open source",
 					"desc": "Wiem jak to było gdy sam zaczynałem. Open source’owe projekty Często dawały mi inspirację do tworzenia czegoś swojego. Aplikacje open source’owe są tworzone z pomocą społeczności, dla społeczności. Nie zapominajmy"
 				}
+			},
+			"Tech": {
+				"technology": "Technologia i znaczenie",
+				"main": "Wierzę, że spełnienie wymagań technicznych to tylko połowa sukcesu. Posiadam oryginalne, stale udoskonalane narzędzia do identyfikacji złożonych wyzwań projektowych. Jestem przekonany, że właściwe dopasowanie technologii i projektu jest kluczem do tego, by w przyszłości móc śmiało poszerzać horyzonty projektowe."
 			}
 		}
 	}
