@@ -26,9 +26,9 @@
 					</NuxtLink>
 				</div>
 				<div class="absolute right-4 -bottom-8 h-8 w-20 flex justify-center items-center rounded-b-md font-semibold bg-blue-400/90">
-					<select v-model="locale">
-						<option value="en">en</option>
-						<option value="pl">pl</option>
+					<select v-model="locale" class="bg-transparent text-white">
+						<option class="text-black" value="en">en</option>
+						<option class="text-black" value="pl">pl</option>
 					</select>
 				</div>
 			</div>
@@ -36,9 +36,7 @@
 		</header>
 		<slot />
 
-		<footer>
-
-		</footer>
+		<Footer/>
 	</div>
 
 </template>

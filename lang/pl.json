@@ -56,6 +56,26 @@
 			"Tech": {
 				"technology": "Technologia i znaczenie",
 				"main": "Wierzę, że spełnienie wymagań technicznych to tylko połowa sukcesu. Posiadam oryginalne, stale udoskonalane narzędzia do identyfikacji złożonych wyzwań projektowych. Jestem przekonany, że właściwe dopasowanie technologii i projektu jest kluczem do tego, by w przyszłości móc śmiało poszerzać horyzonty projektowe."
+			},
+			"Check": {
+				"check": "Sprawdź",
+				"btnPortfolio": "Portfolio",
+				"btnBlog": "Blog"
+			},
+			"Grow": {
+				"Title": "Pozwól swojej marce urosnąć",
+				"Position": {
+					"Title": "Polepsz swoją pozycję",
+					"Desc": "Umocnij swoją pozycję dzięki odpowiedniemu SEO strony i dobrze dobranemu planu rozwoju marki."
+				},
+				"Speed": {
+					"Title": "Przyśpiesz rozwój",
+					"Desc": "Rozpromuj markę przez dobrane przeze mnie sposoby a na pewno uda Ci się dotrzec do nowych potencjalnych klientów."
+				},
+				"Stats": {
+					"Title": "Statystyki",
+					"Desc": "Miej dostęp do wszystkich statystyk strony dzięki panelowi administracyjnemu."
+				}
 			}
 		}
 	}

@@ -60,6 +60,21 @@
 				"check": "Check it out",
 				"btnPortfolio": "Check my portfolio",
 				"btnBlog": "Check my blog"
+			},
+			"Grow": {
+				"Title": "Let your brand grow",
+				"Position": {
+					"Title": "Improve your position",
+					"Desc": "Strengthen your position with the right website SEO and a well-chosen brand development plan."
+				},
+				"Speed": {
+					"Title": "Accelerate development",
+					"Desc": "Spread your brand through the methods I have selected and you will certainly succeed in reaching new potential customers."
+				},
+				"Stats": {
+					"Title": "Statistics",
+					"Desc": "Have access to all website statistics thanks to the administration panel."
+				}
 			}
 		}
 	}

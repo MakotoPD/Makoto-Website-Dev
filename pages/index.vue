@@ -37,14 +37,14 @@
 
 				<div class="flex justify-center space-x-10">
 					<div class="specifillacy_box flex flex-col space-y-4 border-2 max-w-sm border-gray-600 bg-gray-800/30 rounded-xl py-6 px-8">
-						<div class="text-xl">
+						<h3 class="text-xl">
 							<span class="text-primary mr-2">
 								{{ $t('page.home.Specifically.frontend').split(" ")[0] }}
 							</span>
 							<span>
 								{{ $t('page.home.Specifically.frontend').split(" ")[1] }}
 							</span>
-						</div>
+						</h3>
 						<div class="text-gray-400">
 							{{ $t('page.home.Specifically.Frontend.main') }}
 						</div>
@@ -58,14 +58,14 @@
 					</div>
 
 					<div class="specifillacy_box flex flex-col space-y-4 border-2 max-w-sm border-gray-600 bg-gray-800/30 rounded-xl py-6 px-8">
-						<div class="text-xl">
+						<h3 class="text-xl">
 							<span class="text-primary mr-2">
 								{{ $t('page.home.Specifically.graphic').split(" ")[0] }}
 							</span>
 							<span>
 								{{ $t('page.home.Specifically.graphic').split(" ")[1] }}
 							</span>
-						</div>
+						</h3>
 						<div class="text-gray-400">
 							{{ $t('page.home.Specifically.Graphic.main') }}
 						</div>
@@ -92,13 +92,13 @@
 					</div>
 					<div class="w-full">
 						<div>
-							<p class="text-2xl mb-4">
+							<h3 class="text-2xl mb-4">
 								<span class="text-primary">
 									{{ $t('page.home.Support.Why.why').split(" ").shift() }}
 								</span>
 								{{ $t('page.home.Support.Why.why').split(" ")[1] }}
 								{{ $t('page.home.Support.Why.why').split(" ")[2] }} 
-							</p>
+							</h3>
 
 							<p class="text-gray-400">
 								{{ $t('page.home.Support.Why.desc') }}
@@ -125,26 +125,50 @@
 			</div>
 		</div>
 
-		<div class="pt-14 pb-36 relative">
-			<div class="text-white">
-				<div class="checkout_box mx-auto w-fit flex flex-col items-center space-y-8 border-2 border-gray-600 bg-gray-800/30 rounded-xl py-12 px-8">
-					<h2 class="text-5xl font-bold">{{ $t('page.home.Check.check') }}</h2>
-					<div class="max-w-md text-xl flex space-x-4">
-						<button class="px-3 py-1 bg-gray-300/10 border border-gray-500 text-white/80 rounded-lg flex items-center duration-150 hover:bg-gray-100 hover:text-black">{{ $t('page.home.Check.btnPortfolio') }} <i class='ml-2 bx bx-right-arrow-alt'></i></button>
-						<button class="px-3 py-1 bg-gray-300/10 border border-gray-500 text-white/80 rounded-lg flex items-center duration-150 hover:bg-gray-100 hover:text-black">{{ $t('page.home.Check.btnBlog') }} <i class='ml-2 bx bx-right-arrow-alt'></i></button>
+		<div class="container mx-auto">
+			<div class="pt-14 pb-36 relative">
+				<div class="text-white flex flex-col space-y-8 items-center justify-center">
+					<h2 class="text-5xl font-semibold">{{ $t('page.home.Grow.Title') }}</h2>
+					<div class="grid grid-cols-3 gap-4">
+
+						<div class="checkout_box max-w-[19rem] mx-auto w-fit flex flex-col items-start space-y-1 border-2 border-gray-600 bg-gray-800/30 rounded-xl py-6 px-8">
+							<div class="bg-blue-300/20 p-2 flex items-center justify-center rounded-lg">
+								<i class='text-blue-400/70 bx bx-sm bx-line-chart'></i>
+							</div>
+							<h3 class="text-lg font-semibold text-white/80">{{ $t('page.home.Grow.Position.Title') }}</h3>
+							<p class="text-gray-400">
+								{{ $t('page.home.Grow.Position.Desc') }}
+							</p>
+						</div>
+
+						<div class="checkout_box max-w-[19rem] mx-auto w-fit flex flex-col items-start space-y-1 border-2 border-gray-600 bg-gray-800/30 rounded-xl py-6 px-8">
+							<div class="bg-blue-300/20 p-2 flex items-center justify-center rounded-lg">
+								<i class='text-blue-400/70 bx bx-sm bxs-rocket'></i>
+							</div>
+							<h3 class="text-lg font-semibold text-white/80">{{ $t('page.home.Grow.Speed.Title') }}</h3>
+							<p class="text-gray-400">
+								{{ $t('page.home.Grow.Speed.Desc') }}
+							</p>
+						</div>
+
+						<div class="checkout_box max-w-[19rem] mx-auto w-fit flex flex-col items-start space-y-1 border-2 border-gray-600 bg-gray-800/30 rounded-xl py-6 px-8">
+							<div class="bg-blue-300/20 p-2 flex items-center justify-center rounded-lg">
+								<i class='text-blue-400/70 bx bx-sm bxs-bar-chart-alt-2'></i>
+							</div>
+							<h3 class="text-lg font-semibold text-white/80">{{ $t('page.home.Grow.Stats.Title') }}</h3>
+							<p class="text-gray-400">
+								{{ $t('page.home.Grow.Stats.Desc') }}
+							</p>
+						</div>
+						
+						
 					</div>
 				</div>
 			</div>
 		</div>
+		
 
-		<div class="py-36 bg-gray-700 flex-col items-center">
-			<div>
-
-			</div>
-			<div>
-				
-			</div>
-		</div>
+		
 	</div>
 </template>
 
