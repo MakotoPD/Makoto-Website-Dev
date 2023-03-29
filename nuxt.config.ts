@@ -17,7 +17,9 @@ export default defineNuxtConfig({
 			  { rel: 'preconnect', href: 'https://fonts.googleapis.com'},
 			  { rel: 'preconnect', href: 'https://fonts.gstatic.com' },
 			  { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Roboto:display=swap' },
-			  { rel: 'stylesheet', href: 'https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' } 
+			  { rel: 'stylesheet', href: 'https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' },
+			  { rel: 'alternate', hreflang: 'pl', href: 'https://makoto.pl' },
+			  { rel: 'alternate', hreflang: 'en-GB', href: 'https://makoto.pl/en' },
 			],
 		},
 

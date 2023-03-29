@@ -30,13 +30,13 @@
 			</div>
 		</div>
 		<div class="py-36 relative">
-			<img src="/bg/Ellipse1.png" alt="null" class="absolute right-0 top-0 -translate-y-1/2">
+			<img src="/bg/Ellipse1.png" alt="null" class="absolute -z-10 right-0 top-0 -translate-y-1/2">
 
 			<div class="text-white flex flex-col space-y-14 items-center justify-center">
 				<h2 class="text-5xl font-semibold">{{ $t('page.home.Specifically.specifically') }}</h2>
 
 				<div class="flex justify-center space-x-10">
-					<div class="flex flex-col space-y-4 border-2 max-w-sm border-gray-600 bg-gray-800 rounded-xl py-6 px-8">
+					<div class="specifillacy_box flex flex-col space-y-4 border-2 max-w-sm border-gray-600 bg-gray-800/30 rounded-xl py-6 px-8">
 						<div class="text-xl">
 							<span class="text-primary mr-2">
 								{{ $t('page.home.Specifically.frontend').split(" ")[0] }}
@@ -57,7 +57,7 @@
 						</div>
 					</div>
 
-					<div class="flex flex-col space-y-4 border-2 max-w-sm border-gray-600 bg-gray-800 rounded-xl py-6 px-8">
+					<div class="specifillacy_box flex flex-col space-y-4 border-2 max-w-sm border-gray-600 bg-gray-800/30 rounded-xl py-6 px-8">
 						<div class="text-xl">
 							<span class="text-primary mr-2">
 								{{ $t('page.home.Specifically.graphic').split(" ")[0] }}
@@ -86,7 +86,7 @@
 			<div class="text-white flex flex-col space-y-14 items-center justify-center">
 				<h2 class="text-5xl font-semibold">{{ $t('page.home.Support.support') }}</h2>
 
-				<div class="container mx-auto flex border-2 border-gray-600 bg-gray-800 rounded-xl py-12 px-8">
+				<div class="container mx-auto flex border-2 border-gray-600 bg-gray-800/30 rounded-xl py-12 px-8">
 					<div class="w-full  text-center">
 						<h3 class="text-6xl font-semibold w-10/12 mx-auto">{{ $t('page.home.Support.build') }}</h3>
 					</div>
@@ -110,7 +110,7 @@
 		</div>
 
 		<div class="py-36 relative">
-			<img src="/bg/Ellipse2.png" alt="null" class="absolute left-0 top-40 -translate-y-1/2">
+			<img src="/bg/Ellipse2.png" alt="null" class="absolute -z-10 left-0 top-40 -translate-y-1/2">
 			<div class="text-white flex flex-col space-y-8 items-center justify-center">
 				<h2 class="text-5xl font-semibold">{{ $t('page.home.Tech.technology') }}</h2>
 
@@ -127,11 +127,11 @@
 
 		<div class="pt-14 pb-36 relative">
 			<div class="text-white">
-				<div class="mx-auto w-fit flex flex-col items-center space-y-8 border-2 border-gray-600 bg-gray-800 rounded-xl py-12 px-8">
+				<div class="checkout_box mx-auto w-fit flex flex-col items-center space-y-8 border-2 border-gray-600 bg-gray-800/30 rounded-xl py-12 px-8">
 					<h2 class="text-5xl font-bold">{{ $t('page.home.Check.check') }}</h2>
 					<div class="max-w-md text-xl flex space-x-4">
-						<button class="px-3 py-1 bg-gray-300 text-gray-800 rounded-lg flex items-center duration-150 hover:bg-gray-100">{{ $t('page.home.Check.btnPortfolio') }} <i class='ml-2 bx bx-right-arrow-alt'></i></button>
-						<button class="px-3 py-1 bg-gray-300 text-gray-800 rounded-lg flex items-center duration-150 hover:bg-gray-100">{{ $t('page.home.Check.btnBlog') }} <i class='ml-2 bx bx-right-arrow-alt'></i></button>
+						<button class="px-3 py-1 bg-gray-300/10 border border-gray-500 text-white/80 rounded-lg flex items-center duration-150 hover:bg-gray-100 hover:text-black">{{ $t('page.home.Check.btnPortfolio') }} <i class='ml-2 bx bx-right-arrow-alt'></i></button>
+						<button class="px-3 py-1 bg-gray-300/10 border border-gray-500 text-white/80 rounded-lg flex items-center duration-150 hover:bg-gray-100 hover:text-black">{{ $t('page.home.Check.btnBlog') }} <i class='ml-2 bx bx-right-arrow-alt'></i></button>
 					</div>
 				</div>
 			</div>
@@ -150,19 +150,49 @@
 
 <style>
 .boxFirst{
-	background-color: #eab20866;
+	background-color: hwb(45 3% 8% / 0.3);
 	border-color: #EAB308;
 	border-width: 3px;
 }
 .boxSecond{
-	background-color: #0284C766;
+	background-color: hwb(200 1% 22% / 0.3);
 	border-color: #0284C7;
 	border-width: 3px;
 }
 .boxThird{
-	background-color: #F43F5E66;
+	background-color: hwb(350 25% 4% / 0.3);
 	border-color: #F43F5E;
 	border-width: 3px;
+}
+
+.specifillacy_box{
+	position: relative;
+}
+
+.specifillacy_box::after{
+	position: absolute;
+	content: '';
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	background: radial-gradient(82.36% 82.36% at 32.96% 17.64%, rgba(55, 116, 202, 0.19) 0%, rgba(31, 41, 55, 0) 100%);
+}
+
+.checkout_box{
+	position: relative;
+}
+
+.checkout_box::after{
+	position: absolute;
+	content: '';
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	background: radial-gradient(82.36% 82.36% at 32.96% 17.64%, rgba(55, 116, 202, 0.19) 0%, rgba(31, 41, 55, 0) 100%);
 }
 </style>
 
