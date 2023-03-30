@@ -3,7 +3,7 @@
 		<h1 class="text-5xl md:text-7xl font-semibold text-white">{{ $t('page.home.Welcome.first') }}</h1>
 		<div class="md:mt-4 flex flex-col items-center md:items-start md:flex-row md:space-x-4">
 			<p class="text-5xl md:text-7xl font-semibold text-blue-400">{{ $t('page.home.Welcome.second') }}</p>
-			<p class="text-5xl md:text-7xl w-fit font-semibold text-blue-400 px-1 pb-4 border border-blue-500/50 relative decorateFirst">
+			<p class="text-5xl md:text-7xl w-fit font-semibold text-blue-400 px-2 md:px-1 pb-4 border border-blue-500/50 relative decorateFirst">
 				<span class="decorateSecond">
 					<span class="decorateThird">
 						<span class="decorateTourth">
