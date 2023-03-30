@@ -5,7 +5,7 @@
 			<div class="relative w-full flex justify-between p-2 border-b border-gray-500">
 				<div>
 					<NuxtLink :to="localePath('/')">
-						<img src="/logo.png" alt="logo.png" class="h-8">
+						<nuxt-img src="/logo.png" quality="20" alt="logo" class="h-8" />
 					</NuxtLink>
 				</div>
 				<div class="flex flex-nowrap space-x-4 items-center text-gray-400 pr-4">

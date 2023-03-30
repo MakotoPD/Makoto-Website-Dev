@@ -1,9 +1,9 @@
 <template>
-	<div class="flex flex-col justify-center items-center py-14">
-		<h1 class="text-7xl font-semibold text-white">{{ $t('page.home.Welcome.first') }}</h1>
-		<div class="mt-4 flex space-x-4">
-			<p class="text-7xl font-semibold text-blue-400">{{ $t('page.home.Welcome.second') }}</p>
-			<p class="text-7xl font-semibold text-blue-400 px-1 pb-4 border border-blue-500/50 relative decorateFirst">
+	<div class="flex flex-col justify-center items-center pt-14 pb-0 md:py-14">
+		<h1 class="text-5xl md:text-7xl font-semibold text-white">{{ $t('page.home.Welcome.first') }}</h1>
+		<div class="md:mt-4 flex flex-col items-center md:items-start md:flex-row md:space-x-4">
+			<p class="text-5xl md:text-7xl font-semibold text-blue-400">{{ $t('page.home.Welcome.second') }}</p>
+			<p class="text-5xl md:text-7xl w-fit font-semibold text-blue-400 px-1 pb-4 border border-blue-500/50 relative decorateFirst">
 				<span class="decorateSecond">
 					<span class="decorateThird">
 						<span class="decorateTourth">
@@ -13,7 +13,7 @@
 				</span>
 			</p>
 		</div>
-		<p class="welcome-last text-4xl font-light text-gray-400">{{ $t('page.home.Welcome.last') }}</p>
+		<p class="welcome-last mt-4 md:mt-0 text-2xl md:text-4xl font-light text-gray-400">{{ $t('page.home.Welcome.last') }}</p>
 	</div>
 </template>
 

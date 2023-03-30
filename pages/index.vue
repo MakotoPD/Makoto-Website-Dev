@@ -1,41 +1,46 @@
 <template>
 	<div>
+
+		<Head>
+			<Title>Makoto - {{ $t('page.home.title') }}</Title>
+		</Head>
+
 		<Header/>
-		<div class="py-36">
-			<div class="flex justify-center space-x-14">
-				<div class="w-64 h-36">
-					<div class="boxFirst w-28 h-28 rounded-xl flex justify-center items-center">
+		<div class="py-24 md:py-36">
+			<div class="flex flex-col md:flex-row items-center md:items-start justify-center space-y-8 md:space-y-0 md:space-x-14">
+				<div class="w-44 md:w-64 flex flex-col md:items-start">
+					<div class="boxFirst w-16 h-16 p-2 md:p-0 md:w-28 md:h-28 rounded-xl flex justify-center items-center">
 						<img src="/icons/diamond.svg" />
 					</div>
-					<p class="text-gray-300 mt-6 leading-8">
+					<p class="text-sm md:text-base text-gray-300 mt-2 md:mt-6 leading-5 md:leading-8">
 						{{ $t('page.home.Props.diamond') }}
 					</p>
 				</div>
-				<div class="w-64 h-36">
-					<div class="boxSecond w-28 h-28 rounded-xl flex justify-center items-center">
+				<div class="w-44 md:w-64 flex flex-col md:items-start">
+					<div class="boxSecond w-16 h-16 p-2 md:p-0 md:w-28 md:h-28 rounded-xl flex justify-center items-center">
 						<img src="/icons/pen.svg" />
 					</div>
-					<p class="text-gray-300 mt-6 leading-8">
+					<p class="text-sm md:text-base text-gray-300 mt-2 md:mt-6 leading-5 md:leading-8">
 						{{ $t('page.home.Props.pen') }}
 					</p>
 				</div>
-				<div class="w-64 h-36">
-					<div class="boxThird w-28 h-28 rounded-xl flex justify-center items-center">
+				<div class="w-44 md:w-64 flex flex-col md:items-start">
+					<div class="boxThird w-16 h-16 p-2 md:p-0 md:w-28 md:h-28 rounded-xl flex justify-center items-center">
 						<img src="/icons/meta.svg" />
 					</div>
-					<p class="text-gray-300 mt-6 leading-8">
+					<p class="text-sm md:text-base text-gray-300 mt-2 md:mt-6 leading-5 md:leading-8">
 						{{  $t('page.home.Props.meta') }}
 					</p>
 				</div>
 			</div>
 		</div>
-		<div class="py-36 relative">
+		<div class="py-24 md:py-36 relative">
 			<img src="/bg/Ellipse1.png" alt="null" class="absolute -z-10 right-0 top-0 -translate-y-1/2">
 
 			<div class="text-white flex flex-col space-y-14 items-center justify-center">
-				<h2 class="text-5xl font-semibold">{{ $t('page.home.Specifically.specifically') }}</h2>
+				<h2 class="text-5xl font-semibold text-center">{{ $t('page.home.Specifically.specifically') }}</h2>
 
-				<div class="flex justify-center space-x-10">
+				<div class="grid md:grid-cols-2 gap-4 px-4 md:px-0">
 					<div class="specifillacy_box flex flex-col space-y-4 border-2 max-w-sm border-gray-600 bg-gray-800/30 rounded-xl py-6 px-8">
 						<h3 class="text-xl">
 							<span class="text-primary mr-2">
@@ -82,13 +87,13 @@
 			</div>
 		</div>
 
-		<div class="py-36">
-			<div class="text-white flex flex-col space-y-14 items-center justify-center">
-				<h2 class="text-5xl font-semibold">{{ $t('page.home.Support.support') }}</h2>
+		<div class="md:py-36">
+			<div class="text-white flex flex-col space-y-14 items-center justify-center mx-4 md:mx-0">
+				<h2 class="text-5xl font-semibold text-center">{{ $t('page.home.Support.support') }}</h2>
 
-				<div class="container mx-auto flex border-2 border-gray-600 bg-gray-800/30 rounded-xl py-12 px-8">
-					<div class="w-full  text-center">
-						<h3 class="text-6xl font-semibold w-10/12 mx-auto">{{ $t('page.home.Support.build') }}</h3>
+				<div class="container mx-auto grid xl:grid-cols-2 border-2 border-gray-600 bg-gray-800/30 rounded-xl py-12 px-8">
+					<div class="w-full text-center mb-8 xl:mb-0">
+						<h3 class="text-4xl md:text-6xl font-semibold w-10/12 mx-auto">{{ $t('page.home.Support.build') }}</h3>
 					</div>
 					<div class="w-full">
 						<div>
@@ -109,27 +114,25 @@
 			</div>
 		</div>
 
-		<div class="py-36 relative">
+		<div class="py-24 md:py-36 relative">
 			<img src="/bg/Ellipse2.png" alt="null" class="absolute -z-10 left-0 top-40 -translate-y-1/2">
 			<div class="text-white flex flex-col space-y-8 items-center justify-center">
-				<h2 class="text-5xl font-semibold">{{ $t('page.home.Tech.technology') }}</h2>
+				<h2 class="text-5xl font-semibold text-center">{{ $t('page.home.Tech.technology') }}</h2>
 
-				<div class="container mx-auto flex justify-center px-8 text-gray-400">
-					<div class="max-w-md py-24 text-xl">
+				<div class="container mx-auto grid md:grid-cols-2 place-items-center px-8 text-gray-400">
+					<div class="max-w-md md:py-24 text-sm lg:text-xl">
 						{{ $t('page.home.Tech.main') }}
 					</div>
-					<div class="">
-						<img src="/technology.png" alt="technology" class="max-h-96">
-					</div>
+					<nuxt-img src="/technology.png" quality="60" alt="technology" class="max-h-64 md:max-h-96" />
 				</div>
 			</div>
 		</div>
 
 		<div class="container mx-auto">
-			<div class="pt-14 pb-36 relative">
+			<div class="md:pt-14 pb-36 relative">
 				<div class="text-white flex flex-col space-y-8 items-center justify-center">
-					<h2 class="text-5xl font-semibold">{{ $t('page.home.Grow.Title') }}</h2>
-					<div class="grid grid-cols-3 gap-4">
+					<h2 class="text-5xl font-semibold text-center">{{ $t('page.home.Grow.Title') }}</h2>
+					<div class="grid md:grid-cols-3 gap-4">
 
 						<div class="checkout_box max-w-[19rem] mx-auto w-fit flex flex-col items-start space-y-1 border-2 border-gray-600 bg-gray-800/30 rounded-xl py-6 px-8">
 							<div class="bg-blue-300/20 p-2 flex items-center justify-center rounded-lg">

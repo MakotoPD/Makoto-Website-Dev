@@ -18,8 +18,8 @@ export default defineNuxtConfig({
 			  { rel: 'preconnect', href: 'https://fonts.gstatic.com' },
 			  { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Roboto:display=swap' },
 			  { rel: 'stylesheet', href: 'https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' },
-			  { rel: 'alternate', hreflang: 'pl', href: 'https://makoto.pl' },
-			  { rel: 'alternate', hreflang: 'en-GB', href: 'https://makoto.pl/en' },
+			  { rel: 'alternate', hreflang: 'pl', href: 'https://makoto.pl/pl' },
+			  { rel: 'alternate', hreflang: 'en-GB', href: 'https://makoto.pl' },
 			],
 		},
 
@@ -31,6 +31,7 @@ export default defineNuxtConfig({
 		'~/modules/sitemap',		//sitemap creator
 		'@nuxtjs/i18n',				//i18n for multilang page
 		'@nuxtjs/strapi',			//strapi
+		'@nuxt/image-edge',			//images
 	],
 
 	tailwindcss: {

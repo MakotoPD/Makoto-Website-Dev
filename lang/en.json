@@ -11,6 +11,7 @@
 
 	"page": {
 		"home": {
+			"title": "Website Developer and Graphic designer",
 			"Welcome": {
 				"first": "Feauture is a",
 				"second": "Awesome",
@@ -76,6 +77,18 @@
 					"Desc": "Have access to all website statistics thanks to the administration panel."
 				}
 			}
+		},
+		"contact": {
+			"title": "Contact page"
+		},
+		"portfolio": {
+			"title": "Portfolio"
+		},
+		"mystack": {
+			"title": "My technology stack"
+		},
+		"Blog": {
+			"title": "My blog"
 		}
 	}
 }

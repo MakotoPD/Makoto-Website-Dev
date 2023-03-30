@@ -16,4 +16,8 @@ const { find } = useStrapi()
 
 const blogs = await find('blogs')
 
+
+useHead({
+	title: 'Blog - Makoto',
+})
 </script>

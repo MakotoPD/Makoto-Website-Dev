@@ -12,6 +12,7 @@
 
 	"page": {
 		"home": {
+			"title": "Programista stron internetowych oraz projektant graficzny",
 			"Welcome": {
 				"first": "Przyszłością jest",
 				"second": "Piękny",
@@ -77,6 +78,18 @@
 					"Desc": "Miej dostęp do wszystkich statystyk strony dzięki panelowi administracyjnemu."
 				}
 			}
+		},
+		"contact": {
+			"title": "Kontakt"
+		},
+		"portfolio": {
+			"title": "Portfolio"
+		},
+		"mystack": {
+			"title": "Moje technologie"
+		},
+		"Blog": {
+			"title": "Mój blog"
 		}
 	}
 }
