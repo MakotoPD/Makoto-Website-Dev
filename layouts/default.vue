@@ -79,7 +79,7 @@ const localePath = useLocalePath()
 
 onMounted(() => {
 	let lastScrollTop: any;
-	let navbar = document.getElementById('mobileNav');
+	let navbar = <HTMLInputElement>document.getElementById('mobileNav');
 
 	window.addEventListener('scroll',function(){
 		let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
