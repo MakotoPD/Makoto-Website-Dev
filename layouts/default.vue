@@ -1,7 +1,7 @@
 <template>
 	<div class="w-screen h-full">
 		<NuxtLoadingIndicator color="#4A6AAD"/>
-		<header class="w-full flex flex-col justify-center">
+		<header class="hidden w-full md:flex flex-col justify-center">
 			<div class="relative w-full flex justify-between p-2 border-b border-gray-500">
 				<div>
 					<NuxtLink :to="localePath('/')">
@@ -34,6 +34,29 @@
 			</div>
 			<img src="/gradientBG.png" alt="background" class="h-10">
 		</header>
+
+		<header class="z-[100] grid grid-cols-5 bg-gray-700/40 backdrop-blur-md fixed bottom-2 left-1/2 -translate-x-1/2 py-2 px-4 md:hidden w-11/12 border border-gray-500 rounded-2xl">
+			<NuxtLink :to="localePath('/Portfolio')" class="mobileMenu py-1 flex flex-col -space-y-0.5 items-center">
+				<i class='text-white/90 bx-sm bx bxs-image-alt'></i>
+				<p class="text-white/80 text-xs text-center">{{ $t('menu.portfolio') }}</p>
+			</NuxtLink>
+			<NuxtLink :to="localePath('/Contact')" class="mobileMenu py-1 flex flex-col -space-y-0.5 items-center">
+				<i class='text-white/90 bx-sm bx bxs-mobile'></i>
+				<p class="text-white/80 text-xs text-center">{{ $t('menu.contact') }}</p>
+			</NuxtLink>
+			<NuxtLink :to="localePath('/')" class="mobileMenu py-1 flex flex-col -space-y-0.5 items-center">
+				<i class='text-white/90 bx-sm bx bxs-home-alt-2'></i>
+				<p class="text-white/80 text-xs text-center">{{ $t('menu.home') }}</p>
+			</NuxtLink>
+			<NuxtLink :to="localePath('/MyStack')" class="mobileMenu py-1 flex flex-col -space-y-0.5 items-center">
+				<i class='text-white/90 bx-sm bx bxl-codepen'></i>
+				<p class="text-white/80 text-xs text-center">{{ $t('menu.mystack') }}</p>
+			</NuxtLink>
+			<NuxtLink :to="localePath('/Blog')" class="mobileMenu py-1 flex flex-col -space-y-0.5 items-center">
+				<i class='text-white/90 bx-sm bx bxs-customize'></i>
+				<p class="text-white/80 text-xs text-center">{{ $t('menu.blog') }}</p>
+			</NuxtLink>
+		</header>
 		<slot />
 
 		<Footer/>
@@ -55,3 +78,20 @@ const localePath = useLocalePath()
 // cookie.value = token
 
 </script>
+
+
+<style>
+
+.router-link-active.mobileMenu{
+	@apply bg-white/90 rounded-lg shadow-lg;
+}
+
+.router-link-active.mobileMenu i {
+	color: rgb(0, 0, 0, 0.9) !important;
+}
+
+.router-link-active.mobileMenu p {
+	color: rgb(0, 0, 0, 0.9) !important;
+}
+
+</style>
