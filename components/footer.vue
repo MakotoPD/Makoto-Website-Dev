@@ -48,6 +48,9 @@
 					<NuxtLink target="_blank" to="https://www.youtube.com/@makotopd" class="hover:text-white/90">
 						YouTube
 					</NuxtLink>
+					<NuxtLink target="_blank" rel="me" href="https://mastodon.online/@MakotoPD">
+						Mastadon
+					</NuxtLink>
 				</div>
 			</div>
 		</div>
