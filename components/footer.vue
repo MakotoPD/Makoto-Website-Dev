@@ -10,8 +10,8 @@
 						<option class="" value="pl">pl</option>
 					</select>
 				</div>
-				
 			</div>
+			
 			<div>
 				<p class="text-white/20 tracking-widest text-lg">Navigation</p>
 				<div class="flex flex-col text-gray-400 pl-2">
