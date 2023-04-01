@@ -2,26 +2,26 @@
 	<div class="w-screen h-full">
 		<NuxtLoadingIndicator color="#4A6AAD"/>
 		<header class="hidden w-full md:flex flex-col justify-center">
-			<div class="relative w-full flex justify-between p-2 border-b border-gray-500">
+			<div class="relative w-full flex justify-between p-2 border-b bg-gray-400/10 border-gray-500">
 				<div>
 					<NuxtLink :to="localePath('/')">
 						<nuxt-img src="/logo.png" quality="20" alt="logo" class="h-8" />
 					</NuxtLink>
 				</div>
 				<div class="flex flex-nowrap space-x-4 items-center text-gray-400 pr-4">
-					<NuxtLink :to="localePath('/')">
+					<NuxtLink class="hover:text-gray-200 duration-300" :to="localePath('/')">
 						{{ $t('menu.home') }}
 					</NuxtLink>
-					<NuxtLink :to="localePath('/Portfolio')">
+					<NuxtLink class="hover:text-gray-200 duration-300" :to="localePath('/Portfolio')">
 						{{ $t('menu.portfolio') }}
 					</NuxtLink>
-					<NuxtLink :to="localePath('/Contact')">
+					<NuxtLink class="hover:text-gray-200 duration-300" :to="localePath('/Contact')">
 						{{ $t('menu.contact') }}
 					</NuxtLink>
-					<NuxtLink :to="localePath('/MyStack')">
+					<NuxtLink class="hover:text-gray-200 duration-300" :to="localePath('/MyStack')">
 						{{ $t('menu.mystack') }}
 					</NuxtLink>
-					<NuxtLink :to="localePath('/Blog')">
+					<NuxtLink class="hover:text-gray-200 duration-300" :to="localePath('/Blog')">
 						{{ $t('menu.blog') }}
 					</NuxtLink>
 				</div>
@@ -71,11 +71,6 @@ const { locale } = useI18n()
 
 const localePath = useLocalePath()
 
-
-// const token = useStrapiToken()
-
-// const cookie = useCookie('strapi_jwt')
-// cookie.value = token
 
 onMounted(() => {
 	let lastScrollTop: any;
