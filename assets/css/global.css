@@ -8,6 +8,10 @@
   font-family: Roboto, -apple-system, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+.desktopmenu .router-link-active{
+  @apply text-white/80
+}
+
 body{
 	background-color: #111827;
   position: relative;

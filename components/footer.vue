@@ -1,6 +1,6 @@
 <template>
-	<div class="py-12 bg-gray-800 ">
-		<div class="grid md:grid-cols-3 gap-3 px-12 container mx-auto">
+	<div class="pt-12 bg-gray-800 ">
+		<div class="grid md:grid-cols-3 gap-3 px-12 pb-6 container mx-auto">
 			<div>
 				<nuxt-img src="/logo.png" quality="20" alt="logo" class="h-8" />
 				<div class="mt-2 flex space-x-2">
@@ -53,6 +53,9 @@
 					</NuxtLink>
 				</div>
 			</div>
+		</div>
+		<div class="w-full py-4 flex justify-center items-center text-white/70">
+			<p>Copyright © 2023 MakotoPD. All rights reserved.</p>
 		</div>
 	</div>
 </template>

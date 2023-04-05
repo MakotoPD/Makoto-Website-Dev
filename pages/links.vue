@@ -1,5 +1,5 @@
 <template>
-	<div class="pt-12 flex justify-center">
+	<div class="pt-12 pb-36 flex justify-center">
 		
 		<div class="max-w-[16.5rem] max-h-[28rem] specifillacy_box border-2 border-gray-600 bg-gray-800/30 rounded-xl py-6 px-8">
 			<nuxt-img src="/makoto_avatar.png" loading="lazy" alt="Image" class="max-w-[12rem] rounded-xl" />

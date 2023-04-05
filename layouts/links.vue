@@ -1,5 +1,5 @@
 <template>
-	<div class="h-screen">
+	<div class="min-h-screen">
 		<NuxtLoadingIndicator color="#4A6AAD"/>
 
 		<header class="w-full flex flex-col">
@@ -12,6 +12,9 @@
 			</div>
 		</header>
 		<slot />
+
+
+		<Footer/>
 	</div>
 </template>
 

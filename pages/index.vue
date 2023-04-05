@@ -6,29 +6,29 @@
 		</Head>
 
 		<Header/>
-		<div class="py-24 md:py-36">
+		<div class="pt-24 md:py-36">
 			<div class="flex flex-col md:flex-row items-center md:items-start justify-center space-y-8 md:space-y-0 md:space-x-14">
-				<div class="w-44 md:w-64 flex flex-col md:items-start">
+				<div class="w-52 md:w-64 flex flex-col md:items-start">
 					<div class="boxFirst w-16 h-16 p-2 md:p-0 md:w-28 md:h-28 rounded-xl flex justify-center items-center">
 						<img src="/icons/diamond.svg" />
 					</div>
-					<p class="text-sm md:text-base text-gray-300 mt-2 md:mt-6 leading-5 md:leading-8">
+					<p class="text-sm md:text-base text-gray-300 mt-4 md:mt-6 leading-5 md:leading-8">
 						{{ $t('page.home.Props.diamond') }}
 					</p>
 				</div>
-				<div class="w-44 md:w-64 flex flex-col md:items-start">
+				<div class="w-52 md:w-64 flex flex-col md:items-start">
 					<div class="boxSecond w-16 h-16 p-2 md:p-0 md:w-28 md:h-28 rounded-xl flex justify-center items-center">
 						<img src="/icons/pen.svg" />
 					</div>
-					<p class="text-sm md:text-base text-gray-300 mt-2 md:mt-6 leading-5 md:leading-8">
+					<p class="text-sm md:text-base text-gray-300 mt-4 md:mt-6 leading-5 md:leading-8">
 						{{ $t('page.home.Props.pen') }}
 					</p>
 				</div>
-				<div class="w-44 md:w-64 flex flex-col md:items-start">
+				<div class="w-52 md:w-64 flex flex-col md:items-start">
 					<div class="boxThird w-16 h-16 p-2 md:p-0 md:w-28 md:h-28 rounded-xl flex justify-center items-center">
 						<img src="/icons/meta.svg" />
 					</div>
-					<p class="text-sm md:text-base text-gray-300 mt-2 md:mt-6 leading-5 md:leading-8">
+					<p class="text-sm md:text-base text-gray-300 mt-4 md:mt-6 leading-5 md:leading-8">
 						{{  $t('page.home.Props.meta') }}
 					</p>
 				</div>
