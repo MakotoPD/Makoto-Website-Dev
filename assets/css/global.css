@@ -35,20 +35,31 @@ html, body{
 /* width */
 ::-webkit-scrollbar {
 	width: 10px;
-  }
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(39, 52, 82); 
+}
   
-  /* Track */
-  ::-webkit-scrollbar-track {
-	background: rgb(39, 52, 82); 
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-	background: rgb(82, 102, 146); 
-	border-radius: 5px;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-	background: rgb(134, 154, 199); 
-  }
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(82, 102, 146); 
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(134, 154, 199); 
+}
+
+
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.4s;
+}
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+  filter: blur(1rem);
+}
