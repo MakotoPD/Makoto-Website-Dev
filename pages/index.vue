@@ -87,6 +87,17 @@
 			</div>
 		</div>
 
+		<div class="mb-12 px-4 md:px-0">
+			<h3 class="text-white/90 text-center font-semibold text-5xl mb-8">{{ $t('page.home.Trusted.header') }}</h3>
+			<div class="checkout_box border-2 border-gray-600 bg-gray-400/10 py-8 md:py-20 px-12 rounded-2xl container mx-auto ">
+				
+				<div class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-6 place-content-center place-items-center">
+					<nuxt-img quality="30" class="py-2 px-6 max-h-[3rem] md:max-h-[5rem] " v-for="companies in imgs.companies" :src="companies.src" :alt="companies.company"  />
+				</div>
+			</div>
+			
+		</div>
+
 		<div class="md:py-36">
 			<div class="text-white flex flex-col space-y-14 items-center justify-center mx-4 md:mx-0">
 				<h2 class="text-5xl font-semibold text-center">{{ $t('page.home.Support.support') }}</h2>
@@ -224,6 +235,8 @@
 </style>
 
 <script setup lang="ts">
+import imgs from '~/static/json/trusted.json'
+
 function normalize([v]: string[]) {
   return v
 }

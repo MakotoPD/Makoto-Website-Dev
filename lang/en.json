@@ -45,6 +45,9 @@
 					]
 				}
 			},
+			"Trusted": {
+				"header": "They trusted me"
+			},
 			"Support": {
 				"support": "Support small developers and buissnes.",
 				"build": "Build Open-Source App 💙",

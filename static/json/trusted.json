@@ -1,0 +1,28 @@
+{
+	"companies": [
+		{
+			"company": "radec24",
+			"src": "trusted/radec.png"
+		},
+		{
+			"company": "polarem",
+			"src": "trusted/polarem.png"
+		},
+		{
+			"company": "frbslusarczyk",
+			"src": "trusted/frbslusarczyk.png"
+		},
+		{
+			"company": "techtok poland",
+			"src": "trusted/techtokpl.png"
+		},
+		{
+			"company": "osusz",
+			"src": "trusted/osusz.png"
+		},
+		{
+			"company": "rywal-rhc",
+			"src": "trusted/rywal-rhc.png"
+		}
+	]
+}

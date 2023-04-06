@@ -46,6 +46,9 @@
 					]
 				}
 			},
+			"Trusted": {
+				"header": "Oni mi zaufali"
+			},
 			"Support": {
 				"support": "Wsparcie dla małych deweloperów i firm.",
 				"build": "Zbuduj aplikację Open-Source 💙",
