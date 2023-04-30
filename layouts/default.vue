@@ -32,7 +32,7 @@
 					</select>
 				</div>
 			</div>
-			<img src="/gradientBG.png" alt="background" class="h-10">
+			<img src="/gradientBG.png" alt="background" class="h-10 w-fit">
 		</header>
 
 		<header id="mobileNav" class="ease-in-out duration-300 z-[100] grid grid-cols-5 bg-gray-700/40 backdrop-blur-md fixed bottom-2 left-1/2 -translate-x-1/2 py-2 px-4 md:hidden w-11/12 border border-gray-500 rounded-2xl">
