@@ -55,7 +55,7 @@
 			</div>
 		</div>
 		<div class="w-full py-4 flex justify-center items-center text-white/70">
-			<p>Copyright © 2023 MakotoPD. All rights reserved.</p>
+			<p>Copyright © 2023 MakotoPD. MIT.</p>
 		</div>
 	</div>
 </template>
