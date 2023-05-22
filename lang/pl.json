@@ -86,7 +86,8 @@
 			"title": "Kontakt"
 		},
 		"portfolio": {
-			"title": "Portfolio"
+			"title": "Portfolio",
+			"subtitle": "Logo, które stworzyłem"
 		},
 		"mystack": {
 			"title": "Moje technologie"

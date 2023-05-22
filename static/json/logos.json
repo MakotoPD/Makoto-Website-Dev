@@ -1,0 +1,41 @@
+{
+	"logos": [
+		{
+			"alt": "abra",
+			"src": "portfolio-logos/1.webp"
+		},
+		{
+			"alt": "animalibus",
+			"src": "portfolio-logos/2.webp"
+		},
+		{
+			"alt": "eco security",
+			"src": "portfolio-logos/3.webp"
+		},
+		{
+			"alt": "lavaos",
+			"src": "portfolio-logos/4.webp"
+		},
+		{
+			"alt": "patrik",
+			"src": "portfolio-logos/5.webp"
+		},
+		{
+			"alt": "OKi",
+			"src": "portfolio-logos/6.webp"
+		},
+		{
+			"alt": "Yin Zhen",
+			"src": "portfolio-logos/7.webp"
+		},
+		{
+			"alt": "gamedevlady",
+			"src": "portfolio-logos/8.webp"
+		},
+		{
+			"alt": "techtok polska",
+			"src": "portfolio-logos/9.webp"
+		}
+		
+	]
+}

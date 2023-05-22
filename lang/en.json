@@ -85,7 +85,8 @@
 			"title": "Contact page"
 		},
 		"portfolio": {
-			"title": "Portfolio"
+			"title": "Portfolio",
+			"subtitle": "Logos that I have created"
 		},
 		"mystack": {
 			"title": "My technology stack"
