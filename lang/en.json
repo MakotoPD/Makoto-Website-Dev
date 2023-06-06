@@ -82,7 +82,10 @@
 			}
 		},
 		"contact": {
-			"title": "Contact page"
+			"title": "Contact",
+			"subtitle": "Here you can find out how to contact me",
+			"desc": "You can find me on some social media e.g. Instagram, Twitter",
+			"or": "Or use the contact form"
 		},
 		"portfolio": {
 			"title": "Portfolio",

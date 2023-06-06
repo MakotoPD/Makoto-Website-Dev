@@ -83,7 +83,10 @@
 			}
 		},
 		"contact": {
-			"title": "Kontakt"
+			"title": "Kontakt",
+			"subtitle": "Tutaj możesz dowiedzieć się, jak się ze mną skontaktować",
+			"desc": "Można mnie znaleźć w niektórych mediach społecznościowych, np. na Instagramie, Twitterze.",
+			"or": "Lub skorzystaj z formularza kontaktowego"
 		},
 		"portfolio": {
 			"title": "Portfolio",
