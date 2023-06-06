@@ -90,7 +90,30 @@
 			"subtitle": "Logo, które stworzyłem"
 		},
 		"mystack": {
-			"title": "Moje technologie"
+			"title": "Moje technologie",
+			"subtitle": "Technologie, które używam",
+			"Stack": [
+				{
+					"icon": "/icons/stack/vue.svg",
+					"desc": "VueJS - Technologia ta bardzo ułatwia zarządzanie i tworzenie projektów. VueJS rośnie w siłę, dzięki czemu ma coraz większe wsparcie deweloperów."
+				},
+				{
+					"icon": "/icons/stack/ts.svg",
+					"desc": "TypeScript - Jest to rozszerzenie dla JavaScript, które jest znane wszędzie. Umożliwia lepsze i szybsze tworzenie skryptów w projektach."
+				},
+				{
+					"icon": "/icons/stack/tailwind.svg",
+					"desc": "TailwindCSS - Jest to framework CSS, który pozwala szybko stylizować stronę. Używam go do uzupełnienia własnego kodu CSS"
+				},
+				{
+					"icon": "/icons/stack/netlify.svg",
+					"desc": "Netlify - to platforma, na której udostępniam swoje projekty. Prosta, ale wyrafinowana platforma do publikowania."
+				},
+				{
+					"icon": "/icons/stack/codepen.svg",
+					"desc": "Codepen - Umożliwia udostępnianie fragmentów kodu w celu dzielenia się z innymi swoimi pomysłami na rozwiązywanie problemów w kodzie."
+				}
+			]
 		},
 		"Blog": {
 			"title": "Mój blog"

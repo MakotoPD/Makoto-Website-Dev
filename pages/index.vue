@@ -218,20 +218,6 @@
 	background: radial-gradient(82.36% 82.36% at 32.96% 17.64%, rgba(55, 116, 202, 0.19) 0%, rgba(31, 41, 55, 0) 100%);
 }
 
-.checkout_box{
-	position: relative;
-}
-
-.checkout_box::after{
-	position: absolute;
-	content: '';
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 100%;
-	z-index: -1;
-	background: radial-gradient(82.36% 82.36% at 32.96% 17.64%, rgba(55, 116, 202, 0.19) 0%, rgba(31, 41, 55, 0) 100%);
-}
 </style>
 
 <script setup lang="ts">

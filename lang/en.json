@@ -89,7 +89,30 @@
 			"subtitle": "Logos that I have created"
 		},
 		"mystack": {
-			"title": "My technology stack"
+			"title": "My stack",
+			"subtitle": "Technology stack, that I use",
+			"Stack": [
+				{
+					"icon": "/icons/stack/vue.svg",
+					"desc": "VueJS - The technology makes it very easy to manage and create projects. VueJS is going from strength to strength thanks to which it has a growing support of developers."
+				},
+				{
+					"icon": "/icons/stack/ts.svg",
+					"desc": "TypeScript - This is an extension for JavaScript, which is known everywhere. Allows better and faster scripting in projects."
+				},
+				{
+					"icon": "/icons/stack/tailwind.svg",
+					"desc": "TailwindCSS - This is a CSS framework that allows you to quickly style a page. I use it to supplement my own CSS code"
+				},
+				{
+					"icon": "/icons/stack/netlify.svg",
+					"desc": "Netlify - this is the platform on which I share my projects. A simple yet sophisticated platform for publishing."
+				},
+				{
+					"icon": "/icons/stack/codepen.svg",
+					"desc": "Codepen - Allows you to share parts of your code to share your ideas for solving problems in your code with others."
+				}
+			]
 		},
 		"Blog": {
 			"title": "My blog"
