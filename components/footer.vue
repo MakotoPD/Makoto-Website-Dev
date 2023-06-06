@@ -42,6 +42,9 @@
 					<NuxtLink target="_blank" to="https://twitter.com/MakotoPl" class="hover:text-white/90">
 						Twitter
 					</NuxtLink>
+					<NuxtLink target="_blank" rel="me" href="https://github.com/MakotoPD">
+						GitHub
+					</NuxtLink>
 					<NuxtLink target="_blank" to="https://www.twitch.tv/makoto_pl/" class="hover:text-white/90">
 						Twitch
 					</NuxtLink>
