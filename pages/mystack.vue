@@ -12,8 +12,8 @@
 			</div>
 		</div>
 
-		<div class="container mx-auto px-24 mb-12">
-			<div class="grid grid-cols-2 md:grid-cols-3 place-items-center gap-x-14 gap-y-14">
+		<div class="container mx-auto px-12 sm:px-24 mb-12">
+			<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 place-items-center gap-x-14 gap-y-14">
 				<div class="checkout_box relative border-2 border-gray-600 bg-gray-800/30 rounded-xl py-6 pr-8 pl-14 text-white/80 h-full" v-for="item in $tm('page.mystack.Stack')">
 					{{ item.desc({normalize}) }}
 
