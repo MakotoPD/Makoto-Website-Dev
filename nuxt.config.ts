@@ -11,7 +11,8 @@ export default defineNuxtConfig({
 			  { hid: 'description', name: 'description', content: '' },
 			  { name: 'format-detection', content: 'telephone=no' },
 			  { name: 'description', content: 'Makoto - Web developer. I create websites with CMS support. I have been creating websites for 6 years and computer graphics including logos for 8 years. | Tworzę strony internetowe z wsparciem CMS. Tworzę strony od 6 lat oraz grafiki komputerowe w tym loga od 8 lat'},
-			  { name: 'keywords', content: 'Makoto, MakotoPD, Web developer, developer, js, javascript, typescript, ts, programista, strony internetowe, websites, website, doświadczenie, nowoczesne, experience, modern, modern websites, nowoczesne strony'}
+			  { name: 'keywords', content: 'Makoto, MakotoPD, Web developer, developer, js, javascript, typescript, ts, programista, strony internetowe, websites, website, doświadczenie, nowoczesne, experience, modern, modern websites, nowoczesne strony'},
+			  { name: 'og:image', content: '/og.png' }
 			],
 			link: [
 			  { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
