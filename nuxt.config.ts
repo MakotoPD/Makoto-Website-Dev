@@ -34,6 +34,7 @@ export default defineNuxtConfig({
 		'@nuxtjs/i18n',				//i18n for multilang page
 		'@nuxtjs/strapi',			//strapi
 		'@nuxt/image-edge',			//images
+		'nuxt-gtag',				//gtag google analytics
 	],
 
 	tailwindcss: {
@@ -62,6 +63,10 @@ export default defineNuxtConfig({
 		version: 'v4',
 		cookie: {},
 		cookieName: 'strapi_jwt'
+	},
+
+	gtag: {
+		id: 'G-HP3FPJW3BW'
 	},
 
 	css: [
