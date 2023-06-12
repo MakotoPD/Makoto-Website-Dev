@@ -19,7 +19,7 @@
 
 
 					<div class="p-1 absolute -left-6 -top-6 w-16 h-16 rounded-lg border-2 border-gray-600 bg-gray-800/30 backdrop-blur-sm">
-						<img :src="item.icon({normalize})" alt="icon" class="z-10">
+						<nuxt-img loading="lazy" :src="item.icon({normalize})" alt="icon" class="z-10" />
 					</div>
 				</div>
 			</div>	
