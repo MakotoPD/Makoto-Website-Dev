@@ -14,7 +14,7 @@
 
 		<div class="container mx-auto mb-12">
 			<div class="grid grid-cols-2 md:grid-cols-3 place-items-center">
-				<div v-for="companies in imgs.logos"  class="m-6 xl:h-64 xl:w-64 overflow-hidden rounded-lg">
+				<div v-for="companies in imgs.logos"  class="m-6 xl:h-64 xl:w-64 overflow-hidden rounded-lg bg-gray-700">
 					<nuxt-img preload  loading="lazy" quality="30" :src="companies.src" :alt="companies.alt"  />
 				</div>
 			</div>

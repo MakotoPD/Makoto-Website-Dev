@@ -22,7 +22,6 @@ export default defineNuxtConfig({
 			],
 		},
 
-		pageTransition: { name: 'page', mode: 'out-in' }
 	},
 
 	modules: [
@@ -42,7 +41,7 @@ export default defineNuxtConfig({
 	builder: 'vite',			//webpack alternative for nuxtjs/vuejs
 	
 	sitemap: {
-		hostname: 'https://makoto.click',
+		hostname: 'https://makoto.com.pl',
 	},
 
 
@@ -55,7 +54,7 @@ export default defineNuxtConfig({
 		defaultLocale: 'en',
 		detectBrowserLanguage: {
 			useCookie: true,
-    		alwaysRedirect: true
+    		redirectOn: 'root',
 		}
 	},
 	
