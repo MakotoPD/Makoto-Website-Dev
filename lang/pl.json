@@ -2,12 +2,8 @@
 	"menu.home": "Start",
 	"menu.portfolio": "Portfolio",
 	"menu.contact": "Kontakt",
-	"menu.mystack": "Moje technologie",
+	"menu.mystack": "Technologie",
 	"menu.blog": "Blog",
-	"menu.login": "Zaloguj się",
-	"welcome": "Witam",
-	"contact": "kontakt strona",
-	"mystack": "Moje technologie",
 
 
 	"page": {
@@ -93,7 +89,7 @@
 			"subtitle": "Logo, które stworzyłem"
 		},
 		"mystack": {
-			"title": "Moje technologie",
+			"title": "Technologie",
 			"subtitle": "Technologie, które używam",
 			"Stack": [
 				{

@@ -1,4 +1,9 @@
 <template>
+
+	<Head>
+		<Title>Makoto - {{ $t('page.mystack.title') }}</Title>
+	</Head>
+
 	<div class="mb-36">
 
 		 
