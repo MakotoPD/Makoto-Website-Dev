@@ -1,10 +1,48 @@
 <template>
-	<div class="flex justify-center items-center">
-		blog
-		<div class="container mx-auto flex">
-			<div v-for="b in blogs.data" class="w-44 py-4 rounded-lg bg-gray-700 text-white">
-				<p>{{ b.attributes.title }}</p>
-				<p>{{ b.attributes.body }}</p>
+	<Head>
+		<Title>Makoto - {{ $t('page.blog.title') }}</Title>
+	</Head>
+
+	<div class="container mx-auto px-4 md:px-36">
+		<div class="items-center pt-24 mb-24 md:mb-44">
+			<h1 class="text-white text-4xl">{{ $t('page.blog.title') }}</h1>
+			<h2 class="text-primary text-3xl font-light">{{ $t('page.blog.subtitle') }}</h2>
+		</div>
+	</div>
+
+
+
+	<div class="flex justify-center items-center mb-36 2xl:mb-96">
+		<div class="container xl:px-36 mx-auto grid sm:grid-cols-2 md:grid-cols-3 justify-items-center gap-8">
+			<div class="w-64 min-h-[12rem] px-4 py-4 rounded-lg bg-gray-700 text-white hover:scale-110 duration-75">
+				<div class="w-full h-full flex items-center justify-center">
+					<p class="text-white/70 animate-pulse">Work in progress</p>
+				</div>
+			</div>
+			<div class="w-64 min-h-[12rem] px-4 py-4 rounded-lg bg-gray-700 text-white hover:scale-110 duration-75">
+				<div class="w-full h-full flex items-center justify-center">
+					<p class="text-white/70 animate-pulse">Work in progress</p>
+				</div>
+			</div>
+			<div class="w-64 min-h-[12rem] px-4 py-4 rounded-lg bg-gray-700 text-white hover:scale-110 duration-75">
+				<div class="w-full h-full flex items-center justify-center">
+					<p class="text-white/70 animate-pulse">Work in progress</p>
+				</div>
+			</div>
+			<div class="w-64 min-h-[12rem] px-4 py-4 rounded-lg bg-gray-700 text-white hover:scale-110 duration-75">
+				<div class="w-full h-full flex items-center justify-center">
+					<p class="text-white/70 animate-pulse">Work in progress</p>
+				</div>
+			</div>
+			<div class="w-64 min-h-[12rem] px-4 py-4 rounded-lg bg-gray-700 text-white hover:scale-110 duration-75">
+				<div class="w-full h-full flex items-center justify-center">
+					<p class="text-white/70 animate-pulse">Work in progress</p>
+				</div>
+			</div>
+			<div class="w-64 min-h-[12rem] px-4 py-4 rounded-lg bg-gray-700 text-white hover:scale-110 duration-75">
+				<div class="w-full h-full flex items-center justify-center">
+					<p class="text-white/70 animate-pulse">Work in progress</p>
+				</div>
 			</div>
 		</div>
 		
@@ -12,12 +50,7 @@
 </template>
 
 <script setup lang="ts">
-const { find } = useStrapi()
-
-const blogs = await find('blogs')
 
 
-useHead({
-	title: 'Blog - Makoto',
-})
+
 </script>

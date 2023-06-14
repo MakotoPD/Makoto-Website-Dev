@@ -118,8 +118,9 @@
 				}
 			]
 		},
-		"Blog": {
-			"title": "Mój blog"
+		"blog": {
+			"title": "Mój blog",
+			"subtitle": "Tutaj możesz przeczytać coś ciekawego i być może czegoś się nauczyć"
 		}
 	}
 }

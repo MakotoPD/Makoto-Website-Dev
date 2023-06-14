@@ -53,6 +53,10 @@ export default defineNuxtConfig({
 		],
   		langDir: 'lang/',
 		defaultLocale: 'en',
+		detectBrowserLanguage: {
+			useCookie: true,
+    		alwaysRedirect: true
+		}
 	},
 	
 	strapi: {
