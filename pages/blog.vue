@@ -15,32 +15,32 @@
 
 		<div class="flex justify-center items-center mb-36 2xl:mb-96">
 			<div class="container xl:px-36 mx-auto grid sm:grid-cols-2 md:grid-cols-3 justify-items-center gap-8">
-				<div class="w-64 min-h-[12rem] px-4 py-4 text-white checkout_box relative border-2 border-gray-600 bg-gray-800/30 rounded-xl">
+				<div data-aos="zoom-in-up" class="w-64 min-h-[12rem] px-4 py-4 text-white checkout_box relative border-2 border-gray-600 bg-gray-800/30 rounded-xl">
 					<div class="w-full h-full flex items-center justify-center">
 						<p class="text-white/70 animate-pulse">Work in progress</p>
 					</div>
 				</div>
-				<div class="w-64 min-h-[12rem] px-4 py-4 text-white checkout_box relative border-2 border-gray-600 bg-gray-800/30 rounded-xl">
+				<div data-aos="zoom-in-up" class="w-64 min-h-[12rem] px-4 py-4 text-white checkout_box relative border-2 border-gray-600 bg-gray-800/30 rounded-xl">
 					<div class="w-full h-full flex items-center justify-center">
 						<p class="text-white/70 animate-pulse">Work in progress</p>
 					</div>
 				</div>
-				<div class="w-64 min-h-[12rem] px-4 py-4 text-white checkout_box relative border-2 border-gray-600 bg-gray-800/30 rounded-xl">
+				<div data-aos="zoom-in-up" class="w-64 min-h-[12rem] px-4 py-4 text-white checkout_box relative border-2 border-gray-600 bg-gray-800/30 rounded-xl">
 					<div class="w-full h-full flex items-center justify-center">
 						<p class="text-white/70 animate-pulse">Work in progress</p>
 					</div>
 				</div>
-				<div class="w-64 min-h-[12rem] px-4 py-4 text-white checkout_box relative border-2 border-gray-600 bg-gray-800/30 rounded-xl">
+				<div data-aos="zoom-in-up" class="w-64 min-h-[12rem] px-4 py-4 text-white checkout_box relative border-2 border-gray-600 bg-gray-800/30 rounded-xl">
 					<div class="w-full h-full flex items-center justify-center">
 						<p class="text-white/70 animate-pulse">Work in progress</p>
 					</div>
 				</div>
-				<div class="w-64 min-h-[12rem] px-4 py-4 text-white checkout_box relative border-2 border-gray-600 bg-gray-800/30 rounded-xl">
+				<div data-aos="zoom-in-up" class="w-64 min-h-[12rem] px-4 py-4 text-white checkout_box relative border-2 border-gray-600 bg-gray-800/30 rounded-xl">
 					<div class="w-full h-full flex items-center justify-center">
 						<p class="text-white/70 animate-pulse">Work in progress</p>
 					</div>
 				</div>
-				<div class="w-64 min-h-[12rem] px-4 py-4 text-white checkout_box relative border-2 border-gray-600 bg-gray-800/30 rounded-xl">
+				<div data-aos="zoom-in-up" class="w-64 min-h-[12rem] px-4 py-4 text-white checkout_box relative border-2 border-gray-600 bg-gray-800/30 rounded-xl">
 					<div class="w-full h-full flex items-center justify-center">
 						<p class="text-white/70 animate-pulse">Work in progress</p>
 					</div>

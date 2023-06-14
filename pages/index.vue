@@ -8,7 +8,7 @@
 		<Header/>
 		<div class="pt-24 md:py-36">
 			<div class="flex flex-col md:flex-row items-center md:items-start justify-center space-y-8 md:space-y-0 md:space-x-14">
-				<div class="w-52 md:w-64 flex flex-col md:items-start">
+				<div data-aos="fade-up" class="w-52 md:w-64 flex flex-col md:items-start">
 					<div class="boxFirst w-16 h-16 p-2 md:p-0 md:w-28 md:h-28 rounded-xl flex justify-center items-center">
 						<img src="/icons/diamond.svg" alt="icon diamond" />
 					</div>
@@ -16,7 +16,7 @@
 						{{ $t('page.home.Props.diamond') }}
 					</p>
 				</div>
-				<div class="w-52 md:w-64 flex flex-col md:items-start">
+				<div data-aos="fade-up" data-aos-delay="150" class="w-52 md:w-64 flex flex-col md:items-start">
 					<div class="boxSecond w-16 h-16 p-2 md:p-0 md:w-28 md:h-28 rounded-xl flex justify-center items-center">
 						<img src="/icons/pen.svg" alt="icon pen" />
 					</div>
@@ -24,7 +24,7 @@
 						{{ $t('page.home.Props.pen') }}
 					</p>
 				</div>
-				<div class="w-52 md:w-64 flex flex-col md:items-start">
+				<div data-aos="fade-up" data-aos-delay="300" class="w-52 md:w-64 flex flex-col md:items-start">
 					<div class="boxThird w-16 h-16 p-2 md:p-0 md:w-28 md:h-28 rounded-xl flex justify-center items-center">
 						<img src="/icons/meta.svg" alt="icon meta" />
 					</div>
@@ -38,10 +38,10 @@
 			<img src="/bg/Ellipse1.png" alt="null" class="absolute -z-10 right-0 top-0 -translate-y-1/2">
 
 			<div class="text-white flex flex-col space-y-14 items-center justify-center">
-				<h2 class="text-5xl font-semibold text-center">{{ $t('page.home.Specifically.specifically') }}</h2>
+				<h2 data-aos="fade-up" class="text-5xl font-semibold text-center">{{ $t('page.home.Specifically.specifically') }}</h2>
 
 				<div class="grid md:grid-cols-2 gap-4 px-4 md:px-0">
-					<div class="specifillacy_box flex flex-col space-y-4 border-2 max-w-sm border-gray-600 bg-gray-800/30 rounded-xl py-6 px-8">
+					<div data-aos="fade-up" class="specifillacy_box flex flex-col space-y-4 border-2 max-w-sm border-gray-600 bg-gray-800/30 rounded-xl py-6 px-8">
 						<h3 class="text-xl">
 							<span class="text-primary mr-2">
 								{{ $t('page.home.Specifically.frontend').split(" ")[0] }}
@@ -62,7 +62,7 @@
 						</div>
 					</div>
 
-					<div class="specifillacy_box flex flex-col space-y-4 border-2 max-w-sm border-gray-600 bg-gray-800/30 rounded-xl py-6 px-8">
+					<div data-aos="fade-up" data-aos-delay="150" class="specifillacy_box flex flex-col space-y-4 border-2 max-w-sm border-gray-600 bg-gray-800/30 rounded-xl py-6 px-8">
 						<h3 class="text-xl">
 							<span class="text-primary mr-2">
 								{{ $t('page.home.Specifically.graphic').split(" ")[0] }}
@@ -88,11 +88,11 @@
 		</div>
 
 		<div class="mb-12 px-4 md:px-0">
-			<h3 class="text-white/90 text-center font-semibold text-5xl mb-8">{{ $t('page.home.Trusted.header') }}</h3>
-			<div class="checkout_box border-2 border-gray-600 bg-gray-400/10 py-8 md:py-20 px-12 rounded-2xl container mx-auto ">
+			<h3 data-aos="fade-up" class="text-white/90 text-center font-semibold text-5xl mb-8">{{ $t('page.home.Trusted.header') }}</h3>
+			<div data-aos="fade-up" class="checkout_box border-2 border-gray-600 bg-gray-800/30 py-8 md:py-20 px-12 rounded-2xl container mx-auto ">
 				
 				<div class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-6 place-content-center place-items-center">
-					<nuxt-img quality="30" class="py-2 px-6 max-h-[3rem] md:max-h-[5rem] grayscale hover:grayscale-0 duration-100" v-for="companies in imgs.companies" :src="companies.src" :alt="companies.company"  />
+					<nuxt-img quality="30" class="py-2 px-6 max-h-[3rem] md:max-h-[5rem] grayscale hover:grayscale-0 duration-150" v-for="companies in imgs.companies" :src="companies.src" :alt="companies.company"  />
 				</div>
 			</div>
 			
@@ -100,9 +100,9 @@
 
 		<div class="md:py-36">
 			<div class="text-white flex flex-col space-y-14 items-center justify-center mx-4 md:mx-0">
-				<h2 class="text-5xl font-semibold text-center">{{ $t('page.home.Support.support') }}</h2>
+				<h2 data-aos="fade-up" class="text-5xl font-semibold text-center">{{ $t('page.home.Support.support') }}</h2>
 
-				<div class="container mx-auto grid xl:grid-cols-2 border-2 border-gray-600 bg-gray-800/30 rounded-xl py-12 px-8">
+				<div data-aos="fade-up" class="container mx-auto grid xl:grid-cols-2 border-2 border-gray-600 bg-gray-800/30 rounded-xl py-12 px-8">
 					<div class="w-full text-center mb-8 xl:mb-0">
 						<h3 class="text-4xl md:text-6xl font-semibold w-10/12 mx-auto">{{ $t('page.home.Support.build') }}</h3>
 					</div>
@@ -128,9 +128,9 @@
 		<div class="py-24 md:py-36 relative">
 			<img src="/bg/Ellipse2.png" alt="null" class="absolute -z-10 left-0 top-40 -translate-y-1/2">
 			<div class="text-white flex flex-col space-y-8 items-center justify-center">
-				<h2 class="text-5xl font-semibold text-center">{{ $t('page.home.Tech.technology') }}</h2>
+				<h2 data-aos="fade-up" class="text-5xl font-semibold text-center">{{ $t('page.home.Tech.technology') }}</h2>
 
-				<div class="container mx-auto grid md:grid-cols-2 place-items-center px-8 text-gray-400">
+				<div data-aos="fade-up" class="container mx-auto grid md:grid-cols-2 place-items-center px-8 text-gray-400">
 					<div class="max-w-md md:py-24 text-sm lg:text-xl">
 						{{ $t('page.home.Tech.main') }}
 					</div>
@@ -142,10 +142,10 @@
 		<div class="container mx-auto">
 			<div class="md:pt-14 pb-36 relative">
 				<div class="text-white flex flex-col space-y-8 items-center justify-center">
-					<h2 class="text-5xl font-semibold text-center">{{ $t('page.home.Grow.Title') }}</h2>
+					<h2 data-aos="fade-up" class="text-5xl font-semibold text-center">{{ $t('page.home.Grow.Title') }}</h2>
 					<div class="grid md:grid-cols-3 gap-4">
 
-						<div class="checkout_box max-w-[19rem] mx-auto w-fit flex flex-col items-start space-y-1 border-2 border-gray-600 bg-gray-800/30 rounded-xl py-6 px-8">
+						<div data-aos="fade-up" class="checkout_box max-w-[19rem] mx-auto w-fit flex flex-col items-start space-y-1 border-2 border-gray-600 bg-gray-800/30 rounded-xl py-6 px-8">
 							<div class="bg-blue-300/20 p-2 flex items-center justify-center rounded-lg">
 								<i class='text-blue-400/70 bx bx-sm bx-line-chart'></i>
 							</div>
@@ -155,7 +155,7 @@
 							</p>
 						</div>
 
-						<div class="checkout_box max-w-[19rem] mx-auto w-fit flex flex-col items-start space-y-1 border-2 border-gray-600 bg-gray-800/30 rounded-xl py-6 px-8">
+						<div data-aos="fade-up" data-aos-delay="150" class="checkout_box max-w-[19rem] mx-auto w-fit flex flex-col items-start space-y-1 border-2 border-gray-600 bg-gray-800/30 rounded-xl py-6 px-8">
 							<div class="bg-blue-300/20 p-2 flex items-center justify-center rounded-lg">
 								<i class='text-blue-400/70 bx bx-sm bxs-rocket'></i>
 							</div>
@@ -165,7 +165,7 @@
 							</p>
 						</div>
 
-						<div class="checkout_box max-w-[19rem] mx-auto w-fit flex flex-col items-start space-y-1 border-2 border-gray-600 bg-gray-800/30 rounded-xl py-6 px-8">
+						<div data-aos="fade-up" data-aos-delay="300" class="checkout_box max-w-[19rem] mx-auto w-fit flex flex-col items-start space-y-1 border-2 border-gray-600 bg-gray-800/30 rounded-xl py-6 px-8">
 							<div class="bg-blue-300/20 p-2 flex items-center justify-center rounded-lg">
 								<i class='text-blue-400/70 bx bx-sm bxs-bar-chart-alt-2'></i>
 							</div>

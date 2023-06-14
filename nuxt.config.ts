@@ -34,6 +34,10 @@ export default defineNuxtConfig({
 		'@nuxtjs/google-fonts',		//google fonts
 	],
 
+	plugins: [
+		{ src: "@/plugins/aos", ssr: false, mode: "client" }
+	],
+
 	tailwindcss: {
 		configPath: 'tailwind.config',
 	},
