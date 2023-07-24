@@ -39,8 +39,8 @@
 					<NuxtLink target="_blank" to="https://www.instagram.com/makotopd/" class="hover:text-white/90">
 						Instagram
 					</NuxtLink>
-					<NuxtLink target="_blank" to="https://twitter.com/MakotoPl" class="hover:text-white/90">
-						Twitter
+					<NuxtLink target="_blank" to="https://x.com/MakotoPl" class="hover:text-white/90">
+						X / Twitter
 					</NuxtLink>
 					<NuxtLink target="_blank" rel="me" href="https://github.com/MakotoPD">
 						GitHub

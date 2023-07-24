@@ -7,7 +7,7 @@
 				<p class="text-center" >Patryk <span class="text-white/50 underline">@Makoto</span> Dąbrowski</p>
  
 				<div class="mt-4 grid grid-cols-4 gap-2 place-items-center">
-					<a href="https://twitter.com/MakotoPl" target="_blank" class="flex flex-nowrap items-center space-x-3">
+					<a href="https://x.com/MakotoPl" target="_blank" class="flex flex-nowrap items-center space-x-3">
 						<div class="bg-blue-300/20 p-2 flex items-center justify-center rounded-lg">
 							<i class='text-blue-400/70 bx bx-sm bxl-twitter'></i>
 						</div>
