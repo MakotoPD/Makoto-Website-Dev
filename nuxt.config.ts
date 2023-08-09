@@ -78,10 +78,6 @@ export default defineNuxtConfig({
 
 	builder: 'vite', //webpack alternative for nuxtjs/vuejs
 
-	sitemap: {
-		hostname: 'https://makoto.com.pl',
-	},
-
 
 	i18n: {
 		locales: [{

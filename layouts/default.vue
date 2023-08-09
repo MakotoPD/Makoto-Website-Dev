@@ -65,14 +65,7 @@
 </template>
 
 <script setup lang="ts">
-useHead({
-	meta: [
-		{ name: 'google-signin-client_id', content: '910831308616-pqgau9ecq4climsp63qf09flvluo7src.apps.googleusercontent.com'}
-	],
-	script: [
-		{ src: "https://apis.google.com/js/platform.js", async: true, defear: true}
-	]
-})
+
 
 import { useI18n, useLocalePath } from '#imports'
 
