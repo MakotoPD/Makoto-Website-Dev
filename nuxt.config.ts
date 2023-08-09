@@ -114,5 +114,10 @@ export default defineNuxtConfig({
 
 	css: [
 		'@/assets/css/global.css',
-	]
+	],
+
+	routeRules: { 
+		'/': { prerender: true },
+		'/*': { cors: true }
+	}
 })
