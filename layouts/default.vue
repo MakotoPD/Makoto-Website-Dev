@@ -58,12 +58,22 @@
 		</header>
 		<slot />
 
+
 		<Footer/>
 	</div>
 
 </template>
 
 <script setup lang="ts">
+useHead({
+	meta: [
+		{ name: 'google-signin-client_id', content: '869931268633-vsm2vc6308rig94pvfisstu758g12qc5.apps.googleusercontent.com'}
+	],
+	script: [
+		{ src: "https://apis.google.com/js/platform.js", async: true, defear: true}
+	]
+})
+
 import { useI18n, useLocalePath } from '#imports'
 
 const { locale } = useI18n()
@@ -71,7 +81,27 @@ const { locale } = useI18n()
 const localePath = useLocalePath()
 
 
+
+
+
+
 onMounted(() => {
+
+	function onSignIn(googleUser) {
+		var profile = googleUser.getBasicProfile();
+		console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+		console.log('Name: ' + profile.getName());
+		console.log('Image URL: ' + profile.getImageUrl());
+		console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+	}
+
+	let signOut = () => {
+		var auth2 = gapi.auth2.getAuthInstance();
+		auth2.signOut().then(function () {
+		console.log('User signed out.');
+		});
+	}
+
 	let lastScrollTop: any;
 	let navbar = <HTMLInputElement>document.getElementById('mobileNav');
 
