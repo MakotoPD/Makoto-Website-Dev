@@ -67,7 +67,7 @@
 <script setup lang="ts">
 useHead({
 	meta: [
-		{ name: 'google-signin-client_id', content: '869931268633-vsm2vc6308rig94pvfisstu758g12qc5.apps.googleusercontent.com'}
+		{ name: 'google-signin-client_id', content: '910831308616-pqgau9ecq4climsp63qf09flvluo7src.apps.googleusercontent.com'}
 	],
 	script: [
 		{ src: "https://apis.google.com/js/platform.js", async: true, defear: true}
