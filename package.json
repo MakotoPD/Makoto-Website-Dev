@@ -26,6 +26,7 @@
     "@nuxtjs/eslint-config-typescript": "^12.0.0",
     "@nuxtjs/tailwindcss": "^6.2.0",
     "aos": "^2.3.4",
-    "eslint": "^8.31.0"
+    "eslint": "^8.31.0",
+    "nuxt-vue3-google-signin": "^0.0.9"
   }
 }

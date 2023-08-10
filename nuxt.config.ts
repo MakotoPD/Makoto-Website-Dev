@@ -64,8 +64,12 @@ export default defineNuxtConfig({
 		'@nuxt/image-edge', //images
 		'nuxt-gtag', //gtag google analytics
 		'@nuxtjs/google-fonts', //google fonts
+		'nuxt-vue3-google-signin',
 	],
 
+	googleSignIn: {
+		clientId: '910831308616-pqgau9ecq4climsp63qf09flvluo7src.apps.googleusercontent.com',
+	},
 	plugins: [{
 		src: "@/plugins/aos",
 		ssr: false,
