@@ -1,17 +1,15 @@
 <template>
     <div>
-        <div class="min-h-[40rem] flex flex-col items-center">
-            <!-- <div id="g_id_onload"
-                data-client_id="910831308616-pqgau9ecq4climsp63qf09flvluo7src.apps.googleusercontent.com"
-                data-callback="handleCredentialResponse">
-            </div>
-            <div class="g_id_signin" data-type="standard"></div> -->
-            <GoogleSignInButton theme="filled_black" text="continue_with" @success="handleSignInSuccess" @error="handleSignInError" />
-            <div class="h-24"></div>
-            <p @click="test()" class="text-white mt-4">Test GAPI</p>
-		</div>
-
-        
+      <div class="min-h-[20rem] flex flex-col items-center">
+        <p class="text-white mb-2">Login with Google</p>
+        <GoogleSignInButton theme="filled_black" text="continue_with" @success="handleSignInSuccess" @error="handleSignInError" />
+        <div class="h-24"></div>
+        <p @click="test()" class="text-white mt-4">Test GAPI</p>
+		  </div>
+      <div class="min-h-[20rem] flex flex-col items-center">
+        <p class="text-white mb-2">or use hanko</p>
+        <hanko-auth />
+      </div>
     </div>
 </template>
 
@@ -30,7 +28,6 @@ useOneTap({
   onError: () => console.error("Error with One Tap Login"),
   // options
 });
-
 
 const handleSignInSuccess = (response: CredentialResponse) => {
   const { credential } = response;
@@ -56,9 +53,9 @@ useHead({
 	]
 })
 
-    let test = () => {
-        console.log(gapi);
-        console.log(dataUser)
-    }
+let test = () => {
+  console.log(gapi);
+  console.log(dataUser)
+}
 
 </script>
