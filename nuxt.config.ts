@@ -75,8 +75,8 @@ export default defineNuxtConfig({
 		cookieName: 'hanko',
 		redirects: {
 			login: '/login',
-			success: '/login/success',
-			home: '/',
+			success: '/profile',
+			home: '/login',
 			followRedirect: true
 		},
 		// registerComponents: true,
