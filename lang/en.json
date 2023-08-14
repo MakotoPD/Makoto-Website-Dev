@@ -116,6 +116,30 @@
 		"blog": {
 			"title": "My blog",
 			"subtitle": "Here you can read something interesting and maybe learn something"
+		},
+		"login": {
+			"login": "Login to account",
+			"loginAnother": "Login with another account",
+			"email": "E-mail",
+			"password": "Password",
+			"loginButton": "Login",
+			"forgot": "Forgot your password?",
+			"donthave": "Don't have an account? Sign up",
+			"signup": "Sign up",
+			"signupAnother": "Sing up with another account",
+			"signupButton": "Sign up",
+			"haveacc": "have an account? Sign in"
+		},
+		"verify": {
+			"text": "Verify your account by messaging your email."
+		},
+		"forgot": {
+			"text": "Forgot a password",
+			"btn": "Send"
+		},
+		"update": {
+			"text": "Update your data",
+			"btn": "Update"
 		}
 	}
 }

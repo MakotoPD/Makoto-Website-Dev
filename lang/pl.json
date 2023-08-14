@@ -116,6 +116,30 @@
 		"blog": {
 			"title": "Mój blog",
 			"subtitle": "Tutaj możesz przeczytać coś ciekawego i być może czegoś się nauczyć"
+		},
+		"login": {
+			"login": "Zaloguj się",
+			"loginAnother": "Zaloguj za pomocą",
+			"email": "E-mail",
+			"password": "Hasło",
+			"loginButton": "Login",
+			"forgot": "Nie pamiętasz hasła?",
+			"donthave": "Nie masz konta? Zarejestuj się",
+			"signup": "Zarejestruj się",
+			"signupAnother": "Zarejestruj za pomocą",
+			"signupButton": "Zarejestruj",
+			"haveacc": "Posiadasz konto? Zaloguj się"
+		},
+		"verify": {
+			"text": "Zweryfikuj swoje konto po przez wiadmość na swojej poczcie email."
+		},
+		"forgot": {
+			"text": "Zapomniałem hasła",
+			"btn": "Wyślij"
+		},
+		"update": {
+			"text": "Uaktualnij swoje dane",
+			"btn": "Uaktualnij"
 		}
 	}
 }

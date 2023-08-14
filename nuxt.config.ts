@@ -64,28 +64,15 @@ export default defineNuxtConfig({
 		'@nuxt/image-edge', //images
 		'nuxt-gtag', //gtag google analytics
 		'@nuxtjs/google-fonts', //google fonts
-		'nuxt-vue3-google-signin',
-		'@nuxtjs/hanko',
+		'@nuxtjs/supabase',
 	],
 
-	hanko: {
-	// You can also configure this by setting NUXT_PUBLIC_HANKO_API_URL at runtime
-		apiURL: 'https://5993eafd-5196-4712-bf5a-23f34e25e190.hanko.io',
-		// You can also customise these if required
-		cookieName: 'hanko',
-		redirects: {
-			login: '/login',
-			success: '/profile',
-			home: '/login',
-			followRedirect: true
-		},
-		// registerComponents: true,
-		// augmentContext: true,
+	supabase: {
+		redirect: false
 	},
 
-	googleSignIn: {
-		clientId: '910831308616-pqgau9ecq4climsp63qf09flvluo7src.apps.googleusercontent.com',
-	},
+	devtools: { enabled: true },
+
 	plugins: [{
 		src: "@/plugins/aos",
 		ssr: false,

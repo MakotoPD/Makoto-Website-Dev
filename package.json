@@ -16,9 +16,9 @@
     "@nuxt/devtools": "^0.7.5",
     "@nuxt/image-edge": "^1.0.0-28001428.0aa03b6",
     "@nuxtjs/google-fonts": "^3.0.1",
-    "@nuxtjs/hanko": "^0.4.0",
     "@nuxtjs/i18n": "^8.0.0-beta.9",
     "@nuxtjs/strapi": "^1.7.1",
+    "@nuxtjs/supabase": "^1.0.2",
     "nuxt": "^3.1.0",
     "nuxt-gtag": "^0.5.7",
     "sitemap": "^7.1.1"
@@ -27,7 +27,6 @@
     "@nuxtjs/eslint-config-typescript": "^12.0.0",
     "@nuxtjs/tailwindcss": "^6.2.0",
     "aos": "^2.3.4",
-    "eslint": "^8.31.0",
-    "nuxt-vue3-google-signin": "^0.0.9"
+    "eslint": "^8.31.0"
   }
 }

@@ -1,7 +1,6 @@
 <template>
 	<div class="bg-gray-900 w-screen h-screen">
 		<NuxtErrorBoundary>
-			<Menu/>
 			<div class="py-36 flex justify-center items-center flex-col">
 				<div class="mb-12 text-center">
 					<h1 class="text-6xl font-bold text-blue-600">{{error.statusCode}}</h1>
