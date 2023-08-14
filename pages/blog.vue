@@ -12,8 +12,12 @@
 			</div>
 		</div>
 
+		<div class="container mx-auto mb-4">
+			<p class="text-white font-semibold text-2xl">Hello {{ user?.email }}</p>
+		</div>	
 
 		<div class="flex justify-center items-center mb-36 2xl:mb-96">
+			
 			<div class="container xl:px-36 mx-auto grid sm:grid-cols-2 md:grid-cols-3 justify-items-center gap-8">
 <!-- 				
 				<div data-aos="zoom-in-up" class="w-64 min-h-[12rem] px-4 py-4 text-white checkout_box relative border-2 border-gray-600 bg-gray-800/30 rounded-xl">
@@ -47,12 +51,11 @@
 					</div>
 				</div>
 				 -->
-				<p class="text-white font-semibold text-2xl">Hello {{ user?.email }}</p>
+				
 
 				<div v-for="blog in blogs" :key="blog.id" data-aos="zoom-in-up" class="w-64 min-h-[12rem] px-4 py-4 text-white checkout_box relative border-2 border-gray-600 bg-gray-800/30 rounded-xl">
 					<div class="w-full h-full flex flex-col items-center justify-center">
 						<p class="text-white/70">{{ blog.content }} </p>
-						<p class="text-white/70"> {{ blog.email }}</p>
 					</div>
 				</div>
 			</div>
@@ -68,16 +71,7 @@ definePageMeta({
     middleware: ['auth']
 })
 
-
 const user = useSupabaseUser()
-
-onMounted(() => {
-	watchEffect(() => {
-		if (!user.value) {
-			navigateTo('/login')
-		}
-	})
-})
 
 const { data: blogs } = await useFetch('/api/blog', {
 	headers: useRequestHeaders(['cookie']),

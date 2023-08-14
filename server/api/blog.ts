@@ -1,11 +1,11 @@
 import { serverSupabaseUser } from "#supabase/server"
 
 const data = [
-    {id: 0, email: 'patrydab4@gmail.com', content: "my blog 1"},
-    {id: 1, email: 'patrydab4@gmail.com', content: "my blog 2"},
-    {id: 2, email: 'patrydab4@gmail.com', content: "my blog 3"},
-    {id: 3, email: 'makoto.kontakt@gmail.com', content: "my blog 4"},
-    {id: 4, email: 'patrydab4@gmail.com', content: "my blog 5"},
+    {id: 0, content: "Test blog (work in progress)"},
+    {id: 1, content: "Test blog (work in progress)"},
+    {id: 2, content: "Test blog (work in progress)"},
+    {id: 3, content: "Test blog (work in progress)"},
+    {id: 4, content: "Test blog (work in progress)"},
 ]
 
 export default defineEventHandler(async (event) => {
@@ -14,5 +14,5 @@ export default defineEventHandler(async (event) => {
         throw createError({ statusCode: 401, message: 'Unauthorized' })
     }
 
-    return data.filter((blog) => blog.email === user.email)
+    return data
 })
