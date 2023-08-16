@@ -76,7 +76,7 @@
 					
 					<div class="mb-6">
 
-						<vue-hcaptcha  @verify="onVerify" @expired="onExpire"  @error="onError" sitekey="57e192c4-f39a-4527-afca-511d07140959"></vue-hcaptcha>
+						<vue-hcaptcha @verify="onVerify" @expired="onExpire"  @error="onError" data-theme="dark" sitekey="57e192c4-f39a-4527-afca-511d07140959"></vue-hcaptcha>
 
 						<div v-if="error" class="mt-4 w-full py-2 bg-red-200 border border-red-700 rounded-xl text-center font-semibold text-xl text-gray-600" >
 							<p>Error</p>
