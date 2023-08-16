@@ -52,6 +52,12 @@ const loading = ref(false)
 
 const supabase = useSupabaseClient()
 
+const { data: user } = await supabase.auth.getUser()
+
+if (!user.user) {
+    throw createError({ statusCode: 401, message: "Unauthorized"})
+}
+
 const update = async () => {
 
     if (!email.value) {

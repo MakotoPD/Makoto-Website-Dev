@@ -2,7 +2,7 @@
     <div class="h-[40rem] w-screen flex flex-col items-center justify-center">
         <h1 class="text-2xl text-white font-bold mb-4">Profile</h1>
         <div>
-            {{ user }}
+            {{ userifno }}
         </div>
         <div>
             <button @click="signout()" class="px-4 py-1 bg-primary">SignOut</button>
@@ -16,13 +16,19 @@ definePageMeta({
 })
 
 const supabase = useSupabaseClient()
-const user = ref(null)
+const userifno = ref(null)
+
+const { data: user } = await supabase.auth.getUser()
+
+if (!user.user) {
+    throw createError({ statusCode: 401, message: "Unauthorized"})
+}
 
 const { data } = await useFetch('/api/me', {
   headers: useRequestHeaders(['cookie'])
 })
 
-user.value = data
+userifno.value = data
 
 
 const signout = async () => {
