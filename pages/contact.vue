@@ -133,7 +133,7 @@ const verifiedError = ref(false)
 let sendsucces = ref(false)
 let senderror = ref(false)
 
-function onVerify(tokenStr, ekey) {
+function onVerify(tokenStr: string, ekey: string) {
 	verified.value = true;
 	token.value = tokenStr;
 	eKey.value = ekey;
@@ -150,7 +150,7 @@ function onExpire() {
 	}, 10000)
 }
 
-function onError(err) {
+function onError(err: string) {
 	token.value = '';
 	eKey.value = '';
 	error.value = err;

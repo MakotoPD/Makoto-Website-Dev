@@ -76,5 +76,13 @@ const user = useSupabaseUser()
 const { data: blogs } = await useFetch('/api/blog', {
 	headers: useRequestHeaders(['cookie']),
 })
+
+const supabase = useSupabaseClient()
+
+const { data: check } = await supabase.auth.getUser()
+if (!check.user) {
+    throw createError({ statusCode: 401, message: "Only for subscribers"})
+}
+
 console.log(blogs)
 </script>
