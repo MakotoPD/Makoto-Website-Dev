@@ -81,7 +81,19 @@
 			"title": "Contact",
 			"subtitle": "Here you can find out how to contact me",
 			"desc": "You can find me on some social media e.g. Instagram, Twitter",
-			"or": "Or use the contact form"
+			"or": "Or use the contact form",
+			"Form": {
+				"fName": "First name",
+				"lName": "Last name",
+				"phone": "Phone number",
+				"email": "Email address",
+				"mess": "Your message",
+				"btn": "Send",
+				"optional": "optional",
+				"verifiedError": "Please confirm that you are not a robot",
+				"senderror": "Unfortunately the message failed to send, please try again in a few moments....",
+				"sendsucces": "Thank you, the message has been sent :)"
+			}
 		},
 		"portfolio": {
 			"title": "Portfolio",

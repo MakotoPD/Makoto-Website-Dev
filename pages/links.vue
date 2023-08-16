@@ -31,7 +31,14 @@
 						</div>
 					</a>
 
+					
+
 					<div class="flex flex-nowrap items-center space-x-3 col-span-4">
+						<a href="mailto:business@makoto.com.pl" class="flex flex-nowrap items-center space-x-3">
+							<div class="bg-emerald-300/20 p-2 flex items-center justify-center rounded-lg">
+								<i class='text-emerald-400/70 bx bx-sm bxs-envelope'></i>
+							</div>
+						</a>
 						<div class="bg-indigo-300/20 p-2 flex items-center justify-center rounded-lg">
 							<i class='text-indigo-400/70 bx bx-sm bxl-discord-alt'></i>
 

@@ -81,7 +81,19 @@
 			"title": "Kontakt",
 			"subtitle": "Tutaj możesz dowiedzieć się, jak się ze mną skontaktować",
 			"desc": "Można mnie znaleźć w niektórych mediach społecznościowych, np. na Instagramie, Twitterze.",
-			"or": "Lub skorzystaj z formularza kontaktowego"
+			"or": "Lub skorzystaj z formularza kontaktowego",
+			"Form": {
+				"fName": "Imię",
+				"lName": "Nazwisko",
+				"phone": "Numer telefonu",
+				"email": "Adres E-mail",
+				"mess": "Wiadomość",
+				"btn": "Wyslij",
+				"optional": "opcjonalne",
+				"verifiedError": "Proszę potwierdzić że nie jesteś robotem",
+				"senderror": "Niestety nie udało się wysłać wiadomości, spróbuj ponownie za kilka chwil...",
+				"sendsucces": "Dziekujemy, wiadomość została wysłana :)"
+			}
 		},
 		"portfolio": {
 			"title": "Portfolio",
