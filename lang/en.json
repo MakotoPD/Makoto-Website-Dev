@@ -158,6 +158,10 @@
 		},
 		"update": {
 			"text": "Update your data",
+			"new": "New password",
+			"rnew": "Repeat new password",
+			"new-email": "New Email",
+			"rnew-email": "Repeat new Email",
 			"btn": "Update"
 		}
 	}

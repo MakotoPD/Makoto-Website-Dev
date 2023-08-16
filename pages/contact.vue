@@ -78,13 +78,8 @@
 
 						<vue-hcaptcha @verify="onVerify" @expired="onExpire"  @error="onError" data-theme="dark" sitekey="57e192c4-f39a-4527-afca-511d07140959"></vue-hcaptcha>
 
-						<div v-if="error" class="mt-4 w-full py-2 bg-red-200 border border-red-700 rounded-xl text-center font-semibold text-xl text-gray-600" >
-							<p>Error</p>
-							<p>{{ error }}</p>
-						</div>
-						<div v-if="expired" class="mt-4 w-full py-2 bg-blue-200 border border-blue-700 rounded-xl text-center font-semibold text-xl text-gray-600" id="expired">
-							<h1>Wyzwanie wygasło!</h1>
-						</div>
+						<Alert v-if="error" :text="error" type="error" />
+						<Alert v-if="expired" text="The challenge has expired!" type="error" />
 					</div>
 					
 					
@@ -97,15 +92,9 @@
 
 					<button type="submit" class="flex justify-center items-start gap-2 focus:ring-4 focus:outline-none font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center  bg-blue-600  hover:bg-blue-700  focus:ring-blue-800"> <p>{{ $t('page.contact.Form.btn') }}</p> <i class='mt-px bx bx-xs bx-send'></i></button>
 					
-					<div v-show="sendsucces" class="mt-4 w-full py-2 bg-green-200/20 border border-green-700 rounded-xl text-center text-xl text-white/90">
-						{{ $t('page.contact.Form.sendsucces') }}
-					</div>
-					<div v-show="senderror" class="mt-4 w-full py-2 bg-red-200/20 border border-red-700 rounded-xl text-center text-xl text-white/90">
-						{{ $t('page.contact.Form.senderror') }}
-					</div>
-					<div v-show="verifiedError" class="mt-4 w-full py-2 bg-red-200/20 border border-red-700 rounded-xl text-center text-xl text-white/90">
-						{{ $t('page.contact.Form.verifiedError') }}
-					</div>
+					<Alert v-if="sendsucces" :text=" $t('page.contact.Form.sendsucces')" type="success" />
+					<Alert v-if="senderror" :text="$t('page.contact.Form.senderror')" type="error" />
+					<Alert v-if="verifiedError" :text="$t('page.contact.Form.verifiedError')" type="error" />
 				
 				</form>
 			</div>

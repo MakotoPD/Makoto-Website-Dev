@@ -158,6 +158,10 @@
 		},
 		"update": {
 			"text": "Uaktualnij swoje dane",
+			"new": "Nowe hasło",
+			"rnew": "Powtórz nowe hasło",
+			"new-email": "Nowy Email",
+			"rnew-email": "Powtórz nowy Email",
 			"btn": "Uaktualnij"
 		}
 	}
