@@ -13,14 +13,14 @@
                 >
                     <label for="email" class="block mb-2 text-sm font-medium text-gray-400">{{ $t('page.login.email') }}</label>
                     <div class="flex mb-4">
-                        <span class="inline-flex items-center px-3 text-sm text-gray-900 bg-gray-200 border border-r-0 border-gray-300 rounded-l-md dark:bg-gray-600 dark:text-gray-400 dark:border-gray-600">
+                        <span class="inline-flex items-center px-3 text-sm border border-r-0 rounded-l-md   bg-gray-600   text-gray-400   border-gray-600">
                             <i class='bx-xs w-4 h-4 text-gray-400 bx bxs-envelope'></i>
                         </span>
                         <input type="email" id="email" v-model="email"  placeholder="name@email.com" class="rounded-none rounded-r-lg 0 border block flex-1 min-w-0 w-full text-sm p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500">
                     </div>
                     <label for="password" class="block mb-2 text-sm font-medium text-gray-400">{{ $t('page.login.password') }}</label>
                     <div class="flex">
-                        <span class="inline-flex items-center px-3 text-sm text-gray-900 bg-gray-200 border border-r-0 border-gray-300 rounded-l-md dark:bg-gray-600 dark:text-gray-400 dark:border-gray-600">
+                        <span class="inline-flex items-center px-3 text-sm border border-r-0 rounded-l-md   bg-gray-600   text-gray-400   border-gray-600">
                             <i class='bx-xs w-4 h-4 text-gray-400 bx bxs-lock-open-alt'></i>
                         </span>
                         <input type="password" id="password" v-model="password"  :placeholder="$t('page.login.password')" class="rounded-none rounded-r-lg border block flex-1 min-w-0 w-full text-sm p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500">

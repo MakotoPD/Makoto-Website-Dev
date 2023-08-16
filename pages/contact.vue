@@ -59,6 +59,16 @@
 							<input v-model="email" type="email" id="email" class="border text-sm rounded-lg block w-full p-2.5  bg-gray-700  border-gray-600  placeholder-gray-400  text-white  focus:ring-blue-500  focus:border-blue-500" placeholder="jan.kowal@company.com" required>
 						</div>
 					</div>
+					<div class="mb-6">
+						<label for="title" class="block mb-2 text-sm font-medium text-white">{{ $t('page.contact.Form.title') }}</label>
+						<select id="title" v-model="subject" required class=" border text-sm rounded-lg block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500">
+							<option selected value="web">{{ $t('page.contact.Form.Subject.web') }}</option>
+							<option value="graphic">{{ $t('page.contact.Form.Subject.graphic') }}</option>
+							<option value="coop">{{ $t('page.contact.Form.Subject.coop') }}</option>
+							<option value="another">{{ $t('page.contact.Form.Subject.another') }}</option>
+						</select>
+
+					</div>
 					<div class="mb-6">						
 						<label for="message" class="block mb-2 text-sm font-medium  text-white">{{ $t('page.contact.Form.mess') }}</label>
 						<textarea v-model="message" id="message" rows="4" class="block p-2.5 w-full text-sm rounded-lg border  bg-gray-700  border-gray-600  placeholder-gray-400  text-white  focus:ring-blue-500  focus:border-blue-500" placeholder="Write your message here..."></textarea>
@@ -121,6 +131,7 @@ const fname = ref('')
 const lname = ref('')
 const email = ref('')
 const phone = ref('')
+const subject = ref('')
 const message = ref('')
 
 
@@ -180,6 +191,7 @@ const submitForm = async () => {
 			},
 			body: JSON.stringify({
 				access_key: WEB3FORMS_ACCESS_KEY,
+				title: subject.value,
 				name: fname.value + " " + lname.value,
 				email: email.value,
 				phone: phone.value,

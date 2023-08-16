@@ -87,6 +87,13 @@
 				"lName": "Nazwisko",
 				"phone": "Numer telefonu",
 				"email": "Adres E-mail",
+				"title": "Wybierz temat",
+				"Subject": {
+					"web": "Stworzenie strony www",
+					"graphic": "Stworzenie grafiki",
+					"coop": "Współpraca",
+					"another": "Inne"
+				},
 				"mess": "Wiadomość",
 				"btn": "Wyslij",
 				"optional": "opcjonalne",

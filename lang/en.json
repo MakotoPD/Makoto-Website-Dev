@@ -87,6 +87,13 @@
 				"lName": "Last name",
 				"phone": "Phone number",
 				"email": "Email address",
+				"title": "Select the subject",
+				"Subject": {
+					"web": "Create website",
+					"graphic": "Creation of graphics",
+					"coop": "Cooperation",
+					"another": "Other"
+				},
 				"mess": "Your message",
 				"btn": "Send",
 				"optional": "optional",
