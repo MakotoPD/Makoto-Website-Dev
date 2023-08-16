@@ -34,7 +34,7 @@
 			</div>
 		</div>
 
-		<div class="container mx-auto px-12 sm:px-24 mb-12 text-white/90">
+		<div class="container mx-auto px-4 sm:px-24 mb-12 text-white/90">
 			<div class="flex justify-center text-lg font-light text-center">
 				<p>{{ $t('page.contact.or') }}</p>
 			</div>
