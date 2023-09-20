@@ -13,7 +13,7 @@
 		
 
 		<div class="container mx-auto mb-12">
-			<div>
+			<div class="mb-6 px-4 sm:px-0">
 				<h2 class="text-primary text-3xl font-light mb-4">{{ $t('page.portfolio.filter') }}:</h2>
 				<div class="flex gap-x-4">
 					<button @click="filter" data-type="All" class="bg-gray-600 px-5 py-2 rounded-full text-white hover:bg-gray-600/50 duration-150">All</button>
@@ -22,15 +22,15 @@
 				</div>
 			</div>
 			<div id="gallery" class="mb-96">
-				<div class="galleryLogos grid sm:grid-cols-2 md:grid-cols-3 place-items-center">
-					<div v-for="companies in logos.logos" data-aos="zoom-in-up" class="m-6 xl:h-64 xl:w-64 overflow-hidden rounded-lg bg-gray-700">
+				<div class="galleryLogos grid sm:grid-cols-2 md:grid-cols-3 place-items-center px-8 sm:px-0">
+					<div v-for="companies in logos.logos" data-aos-offset="0" data-aos="zoom-in-up" class="m-6 xl:h-64 xl:w-64 overflow-hidden rounded-lg bg-gray-700">
 						<nuxt-img preload data-type="Logo" loading="lazy" quality="30" :src="companies.src" :alt="companies.alt"  />
 					</div>
 					
 				</div>
 
-				<div class="galleryWebs grid sm:grid-cols-2 md:grid-cols-3 place-items-center">
-					<div v-for="companies in webs.webs"  class="m-6  overflow-hidden rounded-lg bg-gray-700 cursor-pointer hover:scale-105 duration-150" @click="openpdf">
+				<div class="galleryWebs grid sm:grid-cols-2 md:grid-cols-3 place-items-center px-8 sm:px-0">
+					<div v-for="companies in webs.webs" class="m-6  overflow-hidden rounded-lg bg-gray-700 cursor-pointer hover:scale-105 duration-150" @click="openpdf">
 						<nuxt-img preload data-type="Web" loading="lazy" quality="30" :data-link="companies.link" :src="companies.src" :alt="companies.alt"  />
 					</div>
 				</div>
