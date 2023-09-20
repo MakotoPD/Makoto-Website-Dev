@@ -29,7 +29,7 @@
 					
 				</div>
 
-				<div class="galleryWebs grid grid-cols-2 place-items-center">
+				<div class="galleryWebs grid sm:grid-cols-2 place-items-center">
 					<div v-for="companies in webs.webs"  class="m-6 xl:h-52 xl:w-96 overflow-hidden rounded-lg bg-gray-700 cursor-pointer hover:scale-110 duration-150" @click="openpdf">
 						<nuxt-img preload data-type="Web" loading="lazy" quality="30" :data-link="companies.link" :src="companies.src" :alt="companies.alt"  />
 					</div>
