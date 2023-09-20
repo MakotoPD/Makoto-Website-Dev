@@ -104,7 +104,8 @@
 		},
 		"portfolio": {
 			"title": "Portfolio",
-			"subtitle": "Logo, które stworzyłem"
+			"subtitle": "Projekty, które stworzyłem",
+			"filter": "Filtruj"
 		},
 		"mystack": {
 			"title": "Technologie",

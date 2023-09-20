@@ -104,7 +104,8 @@
 		},
 		"portfolio": {
 			"title": "Portfolio",
-			"subtitle": "Logos that I have created"
+			"subtitle": "Projects that I have created",
+			"filter": "Filter"
 		},
 		"mystack": {
 			"title": "My stack",
