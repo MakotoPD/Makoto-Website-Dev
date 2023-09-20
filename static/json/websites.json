@@ -4,6 +4,16 @@
             "alt": "eurogrant",
             "src": "portfolio-webs/1.png",
             "link": "portfolio-webs/eurogrant.pdf"
+        },
+        {
+            "alt": "radec24",
+            "src": "portfolio-webs/2.png",
+            "link": "portfolio-webs/radec24.pdf"
+        },
+        {
+            "alt": "8bitjelly",
+            "src": "portfolio-webs/3.png",
+            "link": "portfolio-webs/8bitjelly.pdf"
         }
     ]
 }
