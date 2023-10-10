@@ -19,7 +19,7 @@
 						</div>
 					</a>
 
-					<a href="https://www.instagram.com/makotopd/" class="flex flex-nowrap items-center space-x-3">
+					<a href="https://www.instagram.com/666.makoto/" class="flex flex-nowrap items-center space-x-3">
 						<div class="bg-pink-300/20 p-2 flex items-center justify-center rounded-lg">
 							<i class='text-pink-400/70 bx bx-sm bxl-instagram-alt'></i>
 						</div>
