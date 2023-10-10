@@ -36,10 +36,10 @@
 			<div>
 				<p class="text-white/20 tracking-widest text-lg">Social Media</p>
 				<div class="flex flex-col text-gray-400 pl-2">
-					<NuxtLink target="_blank" to="https://www.instagram.com/makotopd/" class="hover:text-white/90">
+					<NuxtLink target="_blank" to="https://www.instagram.com/666.makoto/" class="hover:text-white/90">
 						Instagram
 					</NuxtLink>
-					<NuxtLink target="_blank" to="https://x.com/MakotoPl" class="hover:text-white/90">
+					<NuxtLink target="_blank" to="https://x.com/MakotoPD" class="hover:text-white/90">
 						X / Twitter
 					</NuxtLink>
 					<NuxtLink target="_blank" rel="me" href="https://github.com/MakotoPD">
@@ -58,7 +58,7 @@
 			</div>
 		</div>
 		<div class="w-full py-4 flex justify-center items-center text-white/70">
-			<p>Copyright © 2023 MakotoPD. MIT.</p>
+			<p>Copyright © 2018-2024 MakotoPD. MIT.</p>
 		</div>
 	</div>
 </template>
