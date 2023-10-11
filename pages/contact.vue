@@ -19,11 +19,11 @@
 			</div>
 
 			<div class="flex flex-col sm:flex-row items-center justify-center space-y-6 sm:space-y-0 sm:space-x-8 mt-4 sm:mt-2">
-				<NuxtLink to="https://www.instagram.com/makotopd/" target="_blank" class="checkout_box flex px-3 py-1 border-2 border-gray-600 bg-pink-300/20 rounded-xl hover:border-pink-600/40 hover:bg-pink-300/40 duration-75">
+				<NuxtLink to="https://www.instagram.com/666.makoto/" target="_blank" class="checkout_box flex px-3 py-1 border-2 border-gray-600 bg-pink-300/20 rounded-xl hover:border-pink-600/40 hover:bg-pink-300/40 duration-75">
 					<i class='text-pink-400/70 bx bx-sm bxl-instagram-alt mr-2'></i>
 					Instagram
 				</NuxtLink>
-				<NuxtLink to="https://twitter.com/MakotoPl" target="_blank" class="checkout_box flex px-3 py-1 border-2 border-gray-600 bg-blue-300/20 rounded-xl hover:border-blue-600/40 hover:bg-blue-300/40 duration-75">
+				<NuxtLink to="https://x.com/MakotoPD" target="_blank" class="checkout_box flex px-3 py-1 border-2 border-gray-600 bg-blue-300/20 rounded-xl hover:border-blue-600/40 hover:bg-blue-300/40 duration-75">
 					<i class='text-blue-400/70 bx bx-sm bxl-twitter mr-2'></i>
 					Twitter
 				</NuxtLink>
