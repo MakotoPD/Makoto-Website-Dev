@@ -7,25 +7,25 @@
 				<p class="text-center" >Patryk <span class="text-white/50 underline">@Makoto</span> Dąbrowski</p>
  
 				<div class="mt-4 grid grid-cols-4 gap-2 place-items-center">
-					<a href="https://x.com/MakotoPD" target="_blank" class="flex flex-nowrap items-center space-x-3">
+					<a href="https://x.com/MakotoPD" target="_blank" target="_blank" class="flex flex-nowrap items-center space-x-3">
 						<div class="bg-blue-300/20 p-2 flex items-center justify-center rounded-lg">
 							<i class='text-blue-400/70 bx bx-sm bxl-twitter'></i>
 						</div>
 					</a>
 					
-					<a href="https://www.twitch.tv/makoto_pl/" class="flex flex-nowrap items-center space-x-3">
+					<a href="https://www.twitch.tv/makoto_pl/" target="_blank" class="flex flex-nowrap items-center space-x-3">
 						<div class="bg-purple-300/20 p-2 flex items-center justify-center rounded-lg">
 							<i class='text-purple-400/70 bx bx-sm bxl-twitch'></i>
 						</div>
 					</a>
 
-					<a href="https://www.instagram.com/666.makoto/" class="flex flex-nowrap items-center space-x-3">
+					<a href="https://www.instagram.com/666.makoto/" target="_blank" class="flex flex-nowrap items-center space-x-3">
 						<div class="bg-pink-300/20 p-2 flex items-center justify-center rounded-lg">
 							<i class='text-pink-400/70 bx bx-sm bxl-instagram-alt'></i>
 						</div>
 					</a>
 
-					<a href="https://mastodon.online/@MakotoPD" class="flex flex-nowrap items-center space-x-3">
+					<a href="https://mastodon.online/@MakotoPD" target="_blank" class="flex flex-nowrap items-center space-x-3">
 						<div class="bg-violet-300/20 p-2 flex items-center justify-center rounded-lg">
 							<i class='text-violet-400/70 bx bx-sm bxl-mastodon'></i>
 						</div>
@@ -34,9 +34,9 @@
 					
 
 					<div class="flex flex-nowrap items-center space-x-3 col-span-4">
-						<a href="mailto:business@makoto.com.pl" class="flex flex-nowrap items-center space-x-3">
+						<a href="https://modrinth.com/user/MakotoPD" target="_blank"  class="flex flex-nowrap items-center space-x-3">
 							<div class="bg-emerald-300/20 p-2 flex items-center justify-center rounded-lg">
-								<i class='text-emerald-400/70 bx bx-sm bxs-envelope'></i>
+								<img src="/icons/modrinth.svg" class="h-6 w-6" alt="modrinth">
 							</div>
 						</a>
 						<div class="bg-indigo-300/20 p-2 flex items-center justify-center rounded-lg">
