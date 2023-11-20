@@ -7,7 +7,7 @@
 				<p class="text-center" >Patryk <span class="text-white/50 underline">@Makoto</span> Dąbrowski</p>
  
 				<div class="mt-4 grid grid-cols-4 gap-2 place-items-center">
-					<a href="https://x.com/MakotoPD" target="_blank" target="_blank" class="flex flex-nowrap items-center space-x-3">
+					<a href="https://x.com/MakotoPD" target="_blank" class="flex flex-nowrap items-center space-x-3">
 						<div class="bg-blue-300/20 p-2 flex items-center justify-center rounded-lg">
 							<i class='text-blue-400/70 bx bx-sm bxl-twitter'></i>
 						</div>
@@ -35,8 +35,8 @@
 
 					<div class="flex flex-nowrap items-center space-x-3 col-span-4">
 						<a href="https://modrinth.com/user/MakotoPD" target="_blank"  class="flex flex-nowrap items-center space-x-3">
-							<div class="bg-emerald-300/20 p-2 flex items-center justify-center rounded-lg">
-								<img src="/icons/modrinth.svg" class="h-6 w-6" alt="modrinth">
+							<div class="bg-emerald-300/20 p-2 w-10 flex items-center justify-center rounded-lg">
+								<img src="/icons/modrinth.svg" class="h-6" alt="modrinth">
 							</div>
 						</a>
 						<div class="bg-indigo-300/20 p-2 flex items-center justify-center rounded-lg">
