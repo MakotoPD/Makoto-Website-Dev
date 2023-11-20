@@ -36,7 +36,7 @@
 					<div class="flex flex-nowrap items-center space-x-3 col-span-4">
 						<a href="https://modrinth.com/user/MakotoPD" target="_blank"  class="flex flex-nowrap items-center space-x-3">
 							<div class="bg-emerald-300/20 p-2 w-10 flex items-center justify-center rounded-lg">
-								<img src="/icons/modrinth.svg" class="h-6" alt="modrinth">
+								<img src="/icons/modrinth.svg" class="h-6 opacity-80" alt="modrinth">
 							</div>
 						</a>
 						<div class="bg-indigo-300/20 p-2 flex items-center justify-center rounded-lg">
