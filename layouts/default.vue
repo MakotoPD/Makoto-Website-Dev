@@ -51,10 +51,10 @@
 				<i class='text-white/90 bx-sm bx bxl-codepen'></i>
 				<p class="text-white/80 text-xs text-center">{{ $t('menu.mystack') }}</p>
 			</NuxtLink>
-			<NuxtLink :to="localePath('/Blog')" class="mobileMenu py-1 flex flex-col -space-y-0.5 items-center">
+			<!-- <NuxtLink :to="localePath('/Blog')" class="mobileMenu py-1 flex flex-col -space-y-0.5 items-center">
 				<i class='text-white/90 bx-sm bx bxs-customize'></i>
 				<p class="text-white/80 text-xs text-center">{{ $t('menu.blog') }}</p>
-			</NuxtLink>
+			</NuxtLink> -->
 		</header>
 		<slot />
 
