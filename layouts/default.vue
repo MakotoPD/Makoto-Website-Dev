@@ -20,9 +20,9 @@
 					<NuxtLink class="hover:text-gray-200 duration-300" :to="localePath('/MyStack')">
 						{{ $t('menu.mystack') }}
 					</NuxtLink>
-					<NuxtLink class="hover:text-gray-200 duration-300" :to="localePath('/Blog')">
+					<!-- <NuxtLink class="hover:text-gray-200 duration-300" :to="localePath('/Blog')">
 						{{ $t('menu.blog') }}
-					</NuxtLink>
+					</NuxtLink> -->
 				</div>
 				<div class="absolute right-4 -bottom-8 h-8 w-20 flex justify-center items-center rounded-b-md font-semibold bg-blue-400/90">
 					<select v-model="locale" class="bg-transparent text-white">
