@@ -1,5 +1,6 @@
 <template>
 	<div class="w-screen h-full main">
+		<SpeedInsights/>
 		<header class="desktopmenu hidden w-full md:flex flex-col justify-center">
 			<div class="relative w-full flex justify-between p-2 border-b bg-gray-400/10 border-gray-500 backdrop-blur-sm">
 				<div>
@@ -65,6 +66,7 @@
 </template>
 
 <script setup lang="ts">
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 
 import { useI18n, useLocalePath } from '#imports'
