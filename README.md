@@ -1,42 +1,29 @@
-# Nuxt 3 Minimal Starter
+# MakotoPD Website
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+![Website link](https://makoto.com.pl/_vercel/image?url=/logo.png&w=1536&q=20)
 
-## Setup
+## Recommended IDE Setup
 
-Make sure to install the dependencies:
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
 
-```bash
-# yarn
-yarn install
+## Used
 
-# npm
-npm install
+* [NuxtJs 3](https://nuxt.com/)
+* [TailwindCSS](https://tailwindcss.com/)
+* [Supabase](https://supabase.com/)
+* [i18n](https://i18n.nuxtjs.org/)
+* [Gtag](https://nuxt.com/modules/gtag/)
+* [Google Fonts](https://google-fonts.nuxtjs.org/)
+* [NuxtImage](https://image.nuxt.com/)
 
-# pnpm
-pnpm install --shamefully-hoist
-```
+### Develop
 
-## Development Server
+| function name   | command                 |
+|-----------------|-------------------------|
+| develop         | `npm run dev`           |
+| build           | `npm run build`         |
+| preview		  | `npm run preview`		|
 
-Start the development server on http://localhost:3000
+### Development Server
 
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Start the development server on `http://localhost:3000`:
