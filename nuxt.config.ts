@@ -18,7 +18,7 @@ export default defineNuxtConfig({
 				},
 				{
 					name: 'description',
-					content: 'Makoto - Web developer. I create websites with CMS support. I have been creating websites for 6 years and computer graphics including logos for 8 years. | Tworzę strony internetowe z wsparciem CMS. Tworzę strony od 6 lat oraz grafiki komputerowe w tym loga od 8 lat'
+					content: 'Makoto - Web developer. I create websites with CMS support. I have been creating websites for 6 years and computer graphics including logos for 8 years.'
 				},
 				{
 					name: 'keywords',
@@ -48,6 +48,10 @@ export default defineNuxtConfig({
 					hreflang: 'en-GB',
 					href: 'https://makoto.com.pl'
 				},
+				{
+					rel: 'canonical',
+					href: 'https://makoto.com.pl'
+				}
 			],
 		},
 
