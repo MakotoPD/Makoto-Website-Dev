@@ -41,12 +41,12 @@ export default defineNuxtConfig({
 				{
 					rel: 'alternate',
 					hreflang: 'pl',
-					href: 'https://makoto.pl/pl'
+					href: 'https://makoto.com.pl/pl'
 				},
 				{
 					rel: 'alternate',
 					hreflang: 'en-GB',
-					href: 'https://makoto.pl'
+					href: 'https://makoto.com.pl'
 				},
 			],
 		},
