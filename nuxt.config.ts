@@ -22,7 +22,7 @@ export default defineNuxtConfig({
 				},
 				{
 					name: 'keywords',
-					content: 'Makoto, MakotoPD, Web developer, developer, js, javascript, typescript, ts, programista, strony internetowe, websites, website, doświadczenie, nowoczesne, experience, modern, modern websites, nowoczesne strony'
+					content: 'Makoto, MakotoPD, Web developer, developer, web dev, dev, js, javascript, typescript, ts, programista, strony internetowe, websites, website, doświadczenie, nowoczesne, experience, modern, modern websites, nowoczesne strony'
 				},
 				{
 					name: 'og:image',

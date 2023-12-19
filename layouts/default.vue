@@ -35,7 +35,7 @@
 			<img src="/gradientBG.png" alt="background" class="h-10 w-fit">
 		</header>
 
-		<header id="mobileNav" class="ease-in-out duration-300 z-[100] grid grid-cols-5 bg-gray-700/40 backdrop-blur-md fixed bottom-2 left-1/2 -translate-x-1/2 py-2 px-4 md:hidden w-11/12 border border-gray-500 rounded-2xl">
+		<header id="mobileNav" class="ease-in-out duration-300 z-[100] grid grid-cols-4 bg-gray-700/40 backdrop-blur-md fixed bottom-2 left-1/2 -translate-x-1/2 py-2 px-4 md:hidden w-11/12 border border-gray-500 rounded-2xl">
 			<NuxtLink :to="localePath('/Portfolio')" class="mobileMenu py-1 flex flex-col -space-y-0.5 items-center">
 				<i class='text-white/90 bx-sm bx bxs-image-alt'></i>
 				<p class="text-white/80 text-xs text-center">{{ $t('menu.portfolio') }}</p>
