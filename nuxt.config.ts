@@ -64,6 +64,7 @@ export default defineNuxtConfig({
 		'nuxt-gtag', //gtag google analytics
 		'@nuxtjs/google-fonts', //google fonts
 		'@nuxtjs/supabase',
+		'@nuxtjs/robots'
 	],
 
 	supabase: {
