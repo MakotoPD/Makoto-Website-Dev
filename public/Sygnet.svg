@@ -1,13 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 27.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.2" baseProfile="tiny-ps" id="Warstwa_1"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2000 1153.6"
-	xml:space="preserve">
-	<title>Makoto</title>
-<g id="sygnet">
-	<path fill="#36A9E1" d="M1267.9,1153.6H86.1c-50.1,0-81.4-54.2-56.3-97.6L620.7,32.5c25-43.4,87.6-43.4,112.7,0L1324.3,1056
-		C1349.3,1099.4,1318,1153.6,1267.9,1153.6z"/>
-	<path fill="#36A9E1" d="M1903.9,1153.6h-301.2c-26.8,0-51.6-14.3-65-37.5l-423-732.7c-13.4-23.2-13.4-51.8,0-75l150.6-260.8
-		c28.9-50,101.1-50,129.9,0l573.6,993.5C1997.7,1091.1,1961.6,1153.6,1903.9,1153.6z"/>
-</g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Warstwa_1" data-name="Warstwa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 2000">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #36a9e1;
+      }
+    </style>
+  </defs>
+  <g id="sygnet">
+    <path class="cls-1" d="m1267.94,1576.78H86.14c-50.07,0-81.37-54.2-56.33-97.57L620.71,455.74c25.04-43.36,87.62-43.36,112.66,0l590.9,1023.48c25.04,43.37-6.26,97.57-56.33,97.57Z"/>
+    <path class="cls-1" d="m1903.86,1576.78h-301.15c-26.8,0-51.57-14.3-64.97-37.51l-423.04-732.73c-13.4-23.21-13.4-51.81,0-75.03l150.58-260.8c28.88-50.02,101.07-50.02,129.95,0l573.61,993.53c28.87,50.02-7.22,112.54-64.98,112.54Z"/>
+  </g>
 </svg>
