@@ -64,7 +64,9 @@ export default defineNuxtConfig({
 		'nuxt-gtag', //gtag google analytics
 		'@nuxtjs/google-fonts', //google fonts
 		'@nuxtjs/supabase',
-		'@nuxtjs/robots'
+		'@nuxtjs/robots',
+		'@nuxtjs/sitemap'			//sitemap	
+
 	],
 
 	supabase: {
@@ -81,6 +83,12 @@ export default defineNuxtConfig({
 
 	tailwindcss: {
 		configPath: 'tailwind.config',
+	},
+
+	robots: {
+		UserAgent: '*',
+		Disallow: '',
+		Sitemap: 'https://makoto.com.pl/sitemap.xml'
 	},
 
 	builder: 'vite', //webpack alternative for nuxtjs/vuejs
@@ -109,7 +117,7 @@ export default defineNuxtConfig({
 
 
 	gtag: {
-		id: 'G-HP3FPJW3BW'
+		id: 'G-7P472XF9TT'
 	},
 
 	googleFonts: {
@@ -117,6 +125,12 @@ export default defineNuxtConfig({
 		families: {
 			Roboto: true,
 		}
+	},
+
+	site: {
+		sources: [
+			'/api/__sitemap__/urls',
+		  ]
 	},
 
 	css: [
