@@ -114,7 +114,7 @@ useHead({
 
 
 
-const WEB3FORMS_ACCESS_KEY = "b7b212cb-59d3-431a-8149-4ea3b7fa42cd"
+const WEB3FORMS_ACCESS_KEY = "49e0f9b4-61b8-4218-bc92-2dee0767f300"
 
 const fname = ref('')
 const lname = ref('')
@@ -162,7 +162,7 @@ function onError(err: string) {
 
 const submitForm = async () => {
 
-	if (email.value != "makotopd@icloud.com") {
+	if (email.value != "makotopd@icloud.com" || email.value != 'contact@makoto.net.pl') {
 
 
 		if(verified.value == false){
