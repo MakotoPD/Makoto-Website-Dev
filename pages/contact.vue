@@ -27,7 +27,7 @@
 					<i class='text-blue-400/70 bx bx-sm bxl-twitter mr-2'></i>
 					Twitter
 				</NuxtLink>
-				<NuxtLink to="mailto:makotopd@icloud.com" target="_blank" class="checkout_box flex px-3 py-1 border-2 border-gray-600 bg-yellow-300/20 rounded-xl hover:border-yellow-600/40 hover:bg-yellow-300/40 duration-75">
+				<NuxtLink to="mailto:contact@makoto.net.pl" target="_blank" class="checkout_box flex px-3 py-1 border-2 border-gray-600 bg-yellow-300/20 rounded-xl hover:border-yellow-600/40 hover:bg-yellow-300/40 duration-75">
 					<i class='text-yellow-400/70 bx bx-sm bxs-envelope mr-2'></i>
 					E-mail
 				</NuxtLink>
