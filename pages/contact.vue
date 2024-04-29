@@ -193,6 +193,14 @@ const submitForm = async () => {
 				console.log(result);
 				console.log('Wiadmość wysłana')
 				sendsucces.value = true
+
+
+				fname.value = ''
+				lname.value = ''
+				email.value = ''
+				phone.value = ''
+				subject.value = ''
+				message.value = ''
 			} else if(result.error) {
 				console.log('Błąd wysyłania')
 				console.log(error.value)
