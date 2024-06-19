@@ -65,15 +65,10 @@ export default defineNuxtConfig({
 		'@nuxt/image-edge', //images
 		'nuxt-gtag', //gtag google analytics
 		'@nuxtjs/google-fonts', //google fonts
-		'@nuxtjs/supabase',
 		'@nuxtjs/robots',
 		'@nuxtjs/sitemap'			//sitemap	
 
 	],
-
-	supabase: {
-		redirect: false
-	},
 
 	devtools: { enabled: true },
 

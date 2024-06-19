@@ -11,10 +11,7 @@
 				<h2 class="text-primary text-3xl font-light">{{ $t('page.blog.subtitle') }}</h2>
 			</div>
 		</div>
-<!-- 
-		<div class="container mx-auto mb-4">
-			<p class="text-white font-semibold text-2xl">Hello {{ user?.email }}</p>
-		</div>	 -->
+
 
 		<div class="flex justify-center items-center mb-36 2xl:mb-96">
 			
@@ -53,11 +50,7 @@
 				
 				
 
-				<!-- <div v-for="blog in blogs" :key="blog.id" data-aos="zoom-in-up" class="w-64 min-h-[12rem] px-4 py-4 text-white checkout_box relative border-2 border-gray-600 bg-gray-800/30 rounded-xl">
-					<div class="w-full h-full flex flex-col items-center justify-center">
-						<p class="text-white/70">{{ blog.content }} </p>
-					</div>
-				</div> -->
+
 			</div>
 			
 		</div>
@@ -67,22 +60,5 @@
 
 
 <script setup lang="ts">
-definePageMeta({
-    middleware: ['auth']
-})
 
-const user = useSupabaseUser()
-
-const { data: blogs } = await useFetch('/api/blog', {
-	headers: useRequestHeaders(['cookie']),
-})
-
-// const supabase = useSupabaseClient()
-
-// const { data: check } = await supabase.auth.getUser()
-// if (!check.user) {
-//     throw createError({ statusCode: 401, message: "Only for subscribers"})
-// }
-
-console.log(blogs)
 </script>
