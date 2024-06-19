@@ -82,6 +82,10 @@ export default defineNuxtConfig({
 		configPath: 'tailwind.config',
 	},
 
+	hub: {
+		database: true
+	},
+
 	robots: {
 		UserAgent: '*',
 		Disallow: '',
