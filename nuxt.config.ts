@@ -1,4 +1,7 @@
 export default defineNuxtConfig({
+	future: {
+		compatibilityVersion: 4,
+	},
 	app: {
 		head: {
 			title: 'Makoto - Website developer',
