@@ -56,7 +56,7 @@
 						<div class="pl-2">
 							<ul class="list-disc list-inside text-gray-200">
 								<li v-for="item in $tm('page.home.Specifically.Frontend.ul')">
-									{{ item.loc.source }}
+									{{ item.body.static }}
 								</li>
 							</ul>
 						</div>
@@ -77,7 +77,7 @@
 						<div class="pl-2">
 							<ul class="list-disc list-inside text-gray-200">
 								<li v-for="item in $tm('page.home.Specifically.Graphic.ul')">
-									{{ item.loc.source }}
+									{{ item.body.static }}
 								</li>
 							</ul>
 						</div>
