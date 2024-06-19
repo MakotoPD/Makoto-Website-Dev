@@ -70,7 +70,6 @@ export default defineNuxtConfig({
 		'@nuxtjs/google-fonts',
 		'@nuxtjs/robots',
 		'@nuxtjs/sitemap',
-		"@nuxthub/core",
 	],
 
 	devtools: { enabled: true },
@@ -85,8 +84,6 @@ export default defineNuxtConfig({
 		configPath: 'tailwind.config',
 	},
 
-	hub: {
-	},
 
 	robots: {
 		UserAgent: '*',
