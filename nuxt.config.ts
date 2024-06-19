@@ -60,14 +60,14 @@ export default defineNuxtConfig({
 	},
 
 	modules: [
-		'@nuxtjs/tailwindcss', //css framework
-		'@nuxtjs/i18n', //i18n for multilang page
-		'@nuxt/image-edge', //images
-		'nuxt-gtag', //gtag google analytics
-		'@nuxtjs/google-fonts', //google fonts
-		'@nuxtjs/robots',
-		'@nuxtjs/sitemap'			//sitemap	
-
+		'@nuxtjs/tailwindcss', 		//css framework
+		'@nuxtjs/i18n', 			//i18n for multilang page
+		'@nuxt/image-edge', 		//images
+		'nuxt-gtag', 				//gtag google analytics
+		'@nuxtjs/google-fonts', 	//google fonts
+		'@nuxtjs/robots', 			//robots
+		'@nuxtjs/sitemap', 			//sitemap
+		"@nuxthub/core"				//nuxthub
 	],
 
 	devtools: { enabled: true },
