@@ -19,11 +19,11 @@
 
 			<div  class="z-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 place-items-center gap-x-14 gap-y-14">
 				<div data-aos="zoom-in-up" class="checkout_box relative border-2 border-gray-600 bg-gray-800/30 rounded-xl py-6 pr-8 pl-14 text-white/80 h-full" v-for="item in $tm('page.mystack.Stack')">
-					{{ item.desc({normalize}) }}
+					{{ item.desc.loc.source }}
 
 
 					<div class="p-1 absolute -left-6 -top-6 w-16 h-16 rounded-lg border-2 border-gray-600 bg-gray-800/30 backdrop-blur-sm">
-						<nuxt-img loading="lazy" :src="item.icon({normalize})" alt="icon" class="z-10" />
+						<nuxt-img loading="lazy" :src="item.icon.loc.source" alt="icon" class="z-10" />
 					</div>
 				</div>
 			</div>
@@ -37,7 +37,4 @@
 
 <script setup lang="ts">
 
-function normalize([v]: string[]) {
-  return v
-}
 </script>

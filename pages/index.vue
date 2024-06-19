@@ -56,7 +56,7 @@
 						<div class="pl-2">
 							<ul class="list-disc list-inside text-gray-200">
 								<li v-for="item in $tm('page.home.Specifically.Frontend.ul')">
-									{{ item({normalize}) }}
+									{{ item.loc.source }}
 								</li>
 							</ul>
 						</div>
@@ -77,7 +77,7 @@
 						<div class="pl-2">
 							<ul class="list-disc list-inside text-gray-200">
 								<li v-for="item in $tm('page.home.Specifically.Graphic.ul')">
-									{{ item({normalize}) }}
+									{{ item.loc.source }}
 								</li>
 							</ul>
 						</div>
@@ -134,7 +134,7 @@
 					<div class="max-w-md md:py-24 text-sm lg:text-xl">
 						{{ $t('page.home.Tech.main') }}
 					</div>
-					<nuxt-img src="/technology.png" quality="60" alt="technology" class="max-h-64 md:max-h-96" />
+					<nuxt-img src="technology.png" quality="60" alt="technology" class="max-h-64 md:max-h-96" />
 				</div>
 			</div>
 		</div>
@@ -223,7 +223,4 @@
 <script setup lang="ts">
 import imgs from '~/static/json/trusted.json'
 
-function normalize([v]: string[]) {
-  return v
-}
 </script>

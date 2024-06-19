@@ -60,14 +60,14 @@ export default defineNuxtConfig({
 	},
 
 	modules: [
-		'@nuxtjs/tailwindcss', 		//css framework
-		'@nuxtjs/i18n', 			//i18n for multilang page
-		'@nuxt/image-edge', 		//images
-		'nuxt-gtag', 				//gtag google analytics
-		'@nuxtjs/google-fonts', 	//google fonts
-		'@nuxtjs/robots', 			//robots
-		'@nuxtjs/sitemap', 			//sitemap
-		"@nuxthub/core"				//nuxthub
+		'@nuxtjs/tailwindcss',
+		'@nuxtjs/i18n',
+		'@nuxt/image',
+		'nuxt-gtag',
+		'@nuxtjs/google-fonts',
+		'@nuxtjs/robots',
+		'@nuxtjs/sitemap',
+		"@nuxthub/core",
 	],
 
 	devtools: { enabled: true },
@@ -109,6 +109,9 @@ export default defineNuxtConfig({
 		],
 		langDir: 'lang/',
 		defaultLocale: 'en',
+		compilation: {
+			strictMessage: false,
+		},
 		detectBrowserLanguage: {
 			useCookie: true,
 			cookieKey: 'i18n_redirected',
