@@ -61,7 +61,7 @@ const checkedFilters = ref([ "Logo", "Web" ])
 
 
 let openpdf = (e: any) => {
-	let link = e.srcElement.attributes[5].value
+	let link = e.srcElement.dataset.link
 	console.log(link)
 
 	window.open(link, "_blank")
