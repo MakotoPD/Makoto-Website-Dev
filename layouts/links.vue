@@ -1,4 +1,8 @@
 <template>
+	<Head>
+		<Noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MMVH46RC"
+			height="0" width="0" style="display:none;visibility:hidden"></iframe></Noscript>
+	</Head>
 	<div class="min-h-screen">
 		<NuxtLoadingIndicator color="#4A6AAD"/>
 
