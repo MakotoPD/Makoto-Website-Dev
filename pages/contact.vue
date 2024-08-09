@@ -27,7 +27,7 @@
 					<i class='text-blue-400/70 bx bx-sm bxl-twitter mr-2'></i>
 					Twitter
 				</NuxtLink>
-				<NuxtLink to="mailto:contact@makoto.net.pl" target="_blank" class="checkout_box flex px-3 py-1 border-2 border-gray-600 bg-yellow-300/20 rounded-xl hover:border-yellow-600/40 hover:bg-yellow-300/40 duration-75">
+				<NuxtLink to="mailto:contact@makoto.com.pl" target="_blank" class="checkout_box flex px-3 py-1 border-2 border-gray-600 bg-yellow-300/20 rounded-xl hover:border-yellow-600/40 hover:bg-yellow-300/40 duration-75">
 					<i class='text-yellow-400/70 bx bx-sm bxs-envelope mr-2'></i>
 					E-mail
 				</NuxtLink>
@@ -114,7 +114,7 @@ useHead({
 
 
 
-const WEB3FORMS_ACCESS_KEY = "49e0f9b4-61b8-4218-bc92-2dee0767f300"
+const WEB3FORMS_ACCESS_KEY = "5570e19a-cefa-433f-8b62-26c58fa27628"
 
 const fname = ref('')
 const lname = ref('')
@@ -162,7 +162,7 @@ function onError(err: string) {
 
 const submitForm = async () => {
 
-	if (email.value != "makotopd@icloud.com" || email.value != 'contact@makoto.net.pl') {
+	if (email.value != "makotopd@icloud.com" || email.value != "contact@makoto.com.pl" || email.value != "contact@makoto.net.pl") {
 
 
 		if(verified.value == false){
