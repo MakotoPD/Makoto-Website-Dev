@@ -116,6 +116,10 @@
 					"desc": "VueJS - Technologia ta bardzo ułatwia zarządzanie i tworzenie projektów. VueJS rośnie w siłę, dzięki czemu ma coraz większe wsparcie deweloperów."
 				},
 				{
+					"icon": "/icons/stack/nuxt.svg",
+					"desc": "NuxtJS - To zaawansowany framework oparty na Vue.js, który umożliwia tworzenie aplikacji uniwersalnych, zarówno po stronie klienta, jak i serwera."
+				},
+				{
 					"icon": "/icons/stack/ts.svg",
 					"desc": "TypeScript - Jest to rozszerzenie dla JavaScript, które jest znane wszędzie. Umożliwia lepsze i szybsze tworzenie skryptów w projektach."
 				},

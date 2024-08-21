@@ -92,7 +92,7 @@
 			<div data-aos="fade-up" class="checkout_box border-2 border-gray-600 bg-gray-800/30 py-8 md:py-20 px-12 rounded-2xl container mx-auto ">
 				
 				<div class="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-6 place-content-center place-items-center">
-					<nuxt-img quality="30" class="py-2 px-6 max-h-[4rem] md:max-h-[5rem] grayscale hover:grayscale-0 duration-150" v-for="companies in imgs.companies" :src="companies.src" :alt="companies.company"  />
+					<nuxt-img quality="30" class="py-2 px-6 h-[4rem] md:h-[5rem] object-contain grayscale hover:grayscale-0 duration-150" v-for="companies in imgs.companies" :src="companies.src" :alt="companies.company"  />
 				</div>
 			</div>
 			
