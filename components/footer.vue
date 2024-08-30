@@ -27,8 +27,8 @@
 					<NuxtLink :to="localePath('/MyStack')" class="hover:text-white/90">
 						{{ $t('menu.mystack') }}
 					</NuxtLink>
-					<NuxtLink :to="localePath('/Blog')" class="hover:text-white/90">
-						{{ $t('menu.blog') }}
+					<NuxtLink :to="localePath('/privacy-poliocy')" class="hover:text-white/90">
+						{{ $t('page.privacy.title') }}
 					</NuxtLink>
 				</div>
 			</div>
