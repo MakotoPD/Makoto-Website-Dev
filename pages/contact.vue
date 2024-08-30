@@ -87,7 +87,7 @@
 						<div class="flex items-center h-5">
 						<input id="remember" type="checkbox" value="" class="w-4 h-4 border rounded focus:ring-3  border-gray-600  focus:ring-blue-600  ring-offset-gray-800" required>
 						</div>
-						<label for="remember" class="ml-2 text-sm font-medium text-gray-300">I agree with the <a href="#" class="hover:underline  text-blue-500">terms and conditions</a>.</label>
+						<label for="remember" class="ml-2 text-sm font-medium text-gray-300">I agree with the <a href="/privacy-policy" class="hover:underline  text-blue-500">privacy policy</a>.</label>
 					</div>
 
 					<button type="submit" class="flex justify-center items-start gap-2 focus:ring-4 focus:outline-none font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center  bg-blue-600  hover:bg-blue-700  focus:ring-blue-800"> <p>{{ $t('page.contact.Form.btn') }}</p> <i class='mt-px bx bx-xs bx-send'></i></button>

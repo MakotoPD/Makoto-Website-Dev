@@ -137,6 +137,53 @@
 				}
 			]
 		},
+		"privacy": {
+			"title": "Privacy Policy",
+			"subtitle": "This privacy policy sets out the rules for processing and protecting personal data provided by users in connection with the use of the Makoto.com.pl website and the contact form available on this site.",
+			"change": "Last modified:",
+			"ul": [
+				{
+					"headling": "Personal Data Administrator",
+					"desc": "The administrator of personal data is Patryk Dąbrowski. For matters related to the protection of personal data, you can contact us at the following email address: contact&#64;makoto.com.pl."
+				},
+				{
+					"headling": "Scope of Collected Data",
+					"desc": "During the use of our website, we may collect the following personal data: <ul class='ml-4 list-disc list-inside'><li>Data provided by the user in the contact form (e.g., name, surname, email address, phone number, message content).</li><li>Data collected automatically during the use of the website (IP address, browser type, operating system, visit time, visited subpages) using cookies and Google Analytics tools.</li></ul>"
+				},
+				{
+					"headling": "Purpose of Data Processing",
+					"desc": "Users' personal data may be processed for the following purposes: <ul class='ml-4 list-disc list-inside'><li>Responding to inquiries submitted via the contact form.</li><li>Adapting the content of the website to the users' needs and optimizing the use of the website.</li><li>Statistical analysis of website traffic using Google Analytics to improve the quality of services provided and better tailor website content to users' needs.</li></ul>"
+				},
+				{
+					"headling": "Legal Basis for Data Processing",
+					"desc": "Personal data is processed based on the user's consent (Article 6(1)(a) GDPR), which the user expresses by filling out the contact form, and based on the legitimate interest of the administrator (Article 6(1)(f) GDPR) for the purpose of statistical analysis of website traffic."
+				},
+				{
+					"headling": "Data Sharing",
+					"desc": "Users' personal data is not shared with third parties, except in situations required by law. We may share personal data with entities we cooperate with in terms of website hosting, technical support, and other services supporting our business, to the extent necessary to provide these services."
+				},
+				{
+					"headling": "Cookies",
+					"desc": "Our website uses cookies. Cookies are used for: <ul class='ml-4 list-disc list-inside'><li>Remembering user preferences.</li><li>Statistical analysis of website traffic using Google Analytics.</li></ul>The user can manage cookies using their browser settings. At any time, the user can block the installation of cookies or remove already installed cookies."
+				},
+				{
+					"headling": "Google Analytics Tool",
+					"desc": "Our website uses Google Analytics, which collects anonymous information about traffic on the site. This information is processed by Google Inc. to generate reports on user activity on the site. Google may transfer this personal data to other entities if required by law or if other entities process data on behalf of Google. More information about the Google Analytics privacy policy can be found <a target='_blank' class='text-blue-400' href='https://policies.google.com/privacy'>here</a>."
+				},
+				{
+					"headling": "User Rights",
+					"desc": "The user has the right to: <ul class='ml-4 list-disc list-inside'><li>Access their personal data.</li><li>Rectify incorrect or incomplete data.</li><li>Delete data ('right to be forgotten').</li><li>Restrict data processing.</li><li>Object to data processing.</li><li>Data portability.</li></ul> To exercise their rights, the user should contact the data administrator via email: contact&#64;makoto.com.pl."
+				},
+				{
+					"headling": "Changes to the Privacy Policy",
+					"desc": "We reserve the right to make changes to this Privacy Policy. Any changes will be published on this website."
+				},
+				{
+					"headling": "Contact",
+					"desc": "If you have any questions regarding this Privacy Policy, please contact us at: contact&#64;makoto.com.pl."
+				}
+			]
+		},
 		"blog": {
 			"title": "My blog",
 			"subtitle": "Here you can read something interesting and maybe learn something"

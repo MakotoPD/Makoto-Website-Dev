@@ -137,6 +137,53 @@
 				}
 			]
 		},
+		"privacy": {
+			"title": "Polityka Prywatności",
+			"subtitle": "Niniejsza polityka prywatności określa zasady przetwarzania i ochrony danych osobowych przekazywanych przez użytkowników w związku z korzystaniem ze strony internetowej Makoto.com.pl oraz formularza kontaktowego dostępnego na tej stronie.",
+			"change": "Ostatnia dokonana zmiania:",
+			"ul": [
+				{
+					"headling": "Administrator Danych Osobowych",
+					"desc": "Administratorem danych osobowych jest Patryk Dąbrowski. W sprawach związanych z ochroną danych osobowych można kontaktować się pod adresem e-mail: contact&#64;makoto.com.pl."
+				},
+				{
+					"headling": "Zakres gromadzonych danych",
+					"desc": "W trakcie korzystania z naszej strony internetowej możemy gromadzić następujące dane osobowe: <ul class='ml-4 list-disc list-inside'><li>Dane przekazywane przez użytkownika w formularzu kontaktowym (np. imię, nazwisko, adres e-mail, numer telefonu, treść wiadomości).</li><li>Dane zbierane automatycznie podczas korzystania ze strony (adres IP, typ przeglądarki, system operacyjny, czas wizyty, odwiedzane podstrony) przy pomocy plików cookies i narzędzia Google Analytics.</li></ul>"
+				},
+				{
+					"headling": "Cel przetwarzania danych",
+					"desc": "Dane osobowe użytkowników mogą być przetwarzane w następujących celach: <ul class='ml-4 list-disc list-inside'><li>Odpowiadanie na zapytania przesyłane za pośrednictwem formularza kontaktowego.</li><li>Dostosowanie treści strony do potrzeb użytkowników oraz optymalizacji korzystania ze strony internetowej.</li><li>Analiza statystyczna ruchu na stronie za pomocą Google Analytics w celu poprawy jakości świadczonych usług i lepszego dostosowania treści strony do potrzeb użytkowników.</li></ul>"
+				},
+				{
+					"headling": "Podstawa prawna przetwarzania danych",
+					"desc": "Dane osobowe są przetwarzane na podstawie zgody użytkownika (art. 6 ust. 1 lit. a RODO), którą użytkownik wyraża poprzez wypełnienie formularza kontaktowego oraz na podstawie uzasadnionego interesu administratora (art. 6 ust. 1 lit. f RODO) w celu analizy statystycznej ruchu na stronie."
+				},
+				{
+					"headling": "Udostępnianie danych",
+					"desc": "Dane osobowe użytkowników nie są udostępniane podmiotom trzecim, z wyjątkiem sytuacji przewidzianych przepisami prawa. Możemy udostępniać dane osobowe podmiotom, z którymi współpracujemy w zakresie hostingu strony, obsługi technicznej i innych usług wspierających naszą działalność, w takim zakresie, jaki jest niezbędny do świadczenia tych usług."
+				},
+				{
+					"headling": "Pliki Cookies",
+					"desc": "Nasza strona internetowa używa plików cookies. Pliki cookies są wykorzystywane do: <ul class='ml-4 list-disc list-inside'><li>Zapamiętywania preferencji użytkownika.</li><li>Analizy statystycznej ruchu na stronie za pomocą Google Analytics.</li></ul>Użytkownik może zarządzać plikami cookies za pomocą ustawień swojej przeglądarki internetowej. W każdej chwili użytkownik ma możliwość zablokowania instalacji plików cookies lub usunięcia już zainstalowanych."
+				},
+				{
+					"headling": "Narzędzie Google Analytics",
+					"desc": "Nasza strona korzysta z narzędzia Google Analytics, które zbiera anonimowe informacje o ruchu na stronie. Informacje te są przetwarzane przez Google Inc. w celu generowania raportów o aktywności użytkowników na stronie. Google może przekazywać te dane osobowe innym podmiotom, jeżeli jest to wymagane przepisami prawa lub jeżeli inne podmioty przetwarzają dane na zlecenie Google. Więcej informacji o polityce prywatności Google Analytics można znaleźć <a target='_blank' class='text-blue-400' href='https://policies.google.com/privacy'>tutaj</a>."
+				},
+				{
+					"headling": "Prawa użytkownika",
+					"desc": "Użytkownik ma prawo do: <ul class='ml-4 list-disc list-inside'><li>Dostępu do swoich danych osobowych.</li><li>Sprostowania nieprawidłowych lub niekompletnych danych.</li><li>Usunięcia danych ('prawo do bycia zapomnianym').</li><li>Ograniczenia przetwarzania danych.</li><li>Sprzeciwu wobec przetwarzania danych.</li><li>Przenoszenia danych.</li></ul> Aby skorzystać ze swoich praw, użytkownik powinien skontaktować się z administratorem danych osobowych za pośrednictwem adresu e-mail: contact&#64;makoto.com.pl."
+				},
+				{
+					"headling": "Zmiany w Polityce Prywatności",
+					"desc": "Zastrzegamy sobie prawo do wprowadzania zmian w niniejszej Polityce Prywatności. Wszelkie zmiany będą publikowane na tej stronie."
+				},
+				{
+					"headling": "Kontakt",
+					"desc": "W razie pytań dotyczących niniejszej Polityki Prywatności prosimy o kontakt pod adresem e-mail: contact&#64;makoto.com.pl."
+				}
+			]
+		},
 		"blog": {
 			"title": "Mój blog",
 			"subtitle": "Tutaj możesz przeczytać coś ciekawego i być może czegoś się nauczyć"
