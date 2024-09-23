@@ -1,7 +1,10 @@
 <template>
 	<Head>
-		<Noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MMVH46RC"
-			height="0" width="0" style="display:none;visibility:hidden"></iframe></Noscript>
+		<NoScript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MMVH46RC"
+			height="0" width="0" style="display:none;visibility:hidden"></iframe></NoScript>
+		<NoScript>
+			<img height="1" width="1" style="display:none"src="https://www.facebook.com/tr?id=1516447535903195&ev=PageView&noscript=1"/>
+		</NoScript>
 	</Head>
 	<div class="w-screen h-full main">
 		<SpeedInsights/>

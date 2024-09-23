@@ -65,6 +65,7 @@ export default defineNuxtConfig({
 			],
 			script: [
 				{children: "(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-MMVH46RC');"},
+				{children: "!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init', '1516447535903195');fbq('track', 'PageView');"},
 				{defer: true, src: 'https://cloud.umami.is/script.js', "data-website-id": '84056d40-a170-4a24-9d8a-e10d2144dd7e'},
 				{ 
 					type: 'application/ld+json',
@@ -75,10 +76,12 @@ export default defineNuxtConfig({
 					src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7443176231652937',
 					crossorigin: "anonymous"
 				}
-			]
+			],
 		},
 
 	},
+
+
 
 	modules: [
 		'@nuxtjs/tailwindcss',
