@@ -162,7 +162,7 @@ function onError(err: string) {
 
 const submitForm = async () => {
 
-	if (email.value != "makotopd@icloud.com" || email.value != "contact@makoto.com.pl" || email.value != "contact@makoto.net.pl") {
+	if (email.value != "makotopd@icloud.com" && email.value != "contact@makoto.com.pl" && email.value != "contact@makoto.net.pl") {
 
 
 		if(verified.value == false){
