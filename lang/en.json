@@ -4,6 +4,7 @@
 	"menu.contact": "Contact",
 	"menu.mystack": "My Stack",
 	"menu.blog": "Blog",
+	"menu.pricing": "Pricing",
 
 	"page": {
 		"home": {
@@ -42,7 +43,7 @@
 				}
 			},
 			"Trusted": {
-				"header": "They trust me"
+				"header": "Ongoing cooperation"
 			},
 			"Support": {
 				"support": "Support small developers and buissnes.",
@@ -215,6 +216,129 @@
 			"new-email": "New Email",
 			"rnew-email": "Repeat new Email",
 			"btn": "Update"
+		},
+		"pricing": {
+			"title": "Pricing",
+			"subtitle": "Choose a plan for your website",
+			"web": "Website",
+			"website": {
+				"small":{
+					"fruit": "🍓",
+					"color": "text-red-600",
+					"class": "bg-[#F43F5E30] border border-1 border-red-600/50",
+					"title": "🍓 Strawberry",
+					"price": "250 - 400€",
+					"subtitle": "Ideal for small business",
+					"props": [
+						{"name": "One page"},
+						{"name": "Landing page"},
+						{"name": "Portfolio"},
+						{"name": "Restaurant/company website"},
+						{"name": "SEO optimization"}
+					]
+				},
+				"medium":{
+					"fruit": "🫐",
+					"color": "text-blue-600",
+					"class": "bg-[#0284C730] border border-1 border-blue-600/50",
+					"title": "🫐 Blueberry",
+					"price": "450 - 600€",
+					"subtitle": "Ideal for medium business",
+					"props": [
+						{"name": "Product Catalogue"},
+						{"name": "Portfolio"},
+						{"name": "Restaurant/company website"},
+						{"name": "SEO optimization"},
+						{"name": "Blog"},
+						{"name": "Security against attacks"}
+					]
+				},
+				"big":{
+					"fruit": "🍌",
+					"color": "text-yellow-600",
+					"class": "bg-[#EAB30830] border border-1 border-yellow-600/50",
+					"title": "🍌 Banana",
+					"price": "700 - 1400€",
+					"subtitle": "Ideal for big business",
+					"props": [
+						{"name": "Security against attacks"},
+						{"name": "Product Catalogue"},
+						{"name": "SEO optimization"},
+						{"name": "Ordering system"},
+						{"name": "E-Commerce"},
+						{"name": "WCAG"},
+						{"name": "Blog"}
+					]
+				},
+				"custom":{
+					"fruit": "🥝",
+					"color": "text-green-600",
+					"class": "bg-[#08ea3130] border border-1 border-green-600/50",
+					"title": "🥝 Kiwi",
+					"price": "???€",
+					"subtitle": "Tailored to your requirements",
+					"props": [
+						{"name": "Fully customised to your requirements"},
+						{"name": "Priority in assistance"},
+						{"name": "Priority in developing the site"}
+					]
+				}
+			},
+			"logo": {
+				"small":{
+					"fruit": "🍓",
+					"color": "text-red-600",
+					"class": "bg-[#F43F5E30] border border-1 border-red-600/50",
+					"title": "🍓 Strawberry",
+					"price": "50 - 150€",
+					"subtitle": "Stylish solutions for every budget",
+					"props": [
+						{"name": "3 concepts"},
+						{"name": "High-quality logo"},
+						{"name": "High-resolution files"},
+						{"name": "5 revisions"},
+						{"name": "Print files"},
+						{"name": "Vector file"}
+					]
+				},
+				"medium":{
+					"fruit": "🫐",
+					"color": "text-blue-600",
+					"class": "bg-[#0284C730] border border-1 border-blue-600/50",
+					"title": "🫐 Blueberry",
+					"price": "150 - 300€",
+					"subtitle": "Professionalism and creativity at a reasonable price",
+					"props": [
+						{"name": "Up to 5 concepts"},
+						{"name": "High-quality logo"},
+						{"name": "High-resolution and editable files"},
+						{"name": "Unlimited revisions"},
+						{"name": "Print files"},
+						{"name": "Vector file"},
+						{"name": "Mini brand book"}
+					]
+				},
+				"big":{
+					"fruit": "🍌",
+					"color": "text-yellow-600",
+					"class": "bg-[#EAB30830] border border-1 border-yellow-600/50",
+					"title": "🍌 Banana",
+					"price": "300 - 600€",
+					"subtitle": "Luxury logos that will make your brand stand out",
+					"props": [
+						{"name": "Up to 8 concepts"},
+						{"name": "High-quality logo"},
+						{"name": "High-resolution and editable files"},
+						{"name": "Unlimited revisions"},
+						{"name": "Print files"},
+						{"name": "Vector file"},
+						{"name": "Full brand book and logo usage guide"},
+						{"name": "Social media graphics pack"},
+						{"name": "3D mockup"}
+					]
+				}
+			},
+			"button" : "Get started"
 		}
 	}
 }

@@ -4,6 +4,7 @@
 	"menu.contact": "Kontakt",
 	"menu.mystack": "Technologie",
 	"menu.blog": "Blog",
+	"menu.pricing": "Cena",
 
 	"page": {
 		"home": {
@@ -42,7 +43,7 @@
 				}
 			},
 			"Trusted": {
-				"header": "Oni mi zaufali"
+				"header": "Stałe współprace"
 			},
 			"Support": {
 				"support": "Wsparcie dla małych deweloperów i firm.",
@@ -215,6 +216,130 @@
 			"new-email": "Nowy Email",
 			"rnew-email": "Powtórz nowy Email",
 			"btn": "Uaktualnij"
+		},
+		"pricing": {
+			"title": "Cena",
+			"subtitle": "Wybierz plan dla swojej strony internetowej",
+			"web": "Strona internetowa",
+			"website": {
+				"small":{
+					"fruit": "🍓",
+					"color": "text-red-600",
+					"class": "bg-[#F43F5E30] border border-1 border-red-600/50",
+					"title": "🍓 Truskawka",
+					"price": "850 - 1700ZŁ",
+					"subtitle": "Idealne dla małego biznesu",
+					"props": [
+						{"name": "One page"},
+						{"name": "Landing page"},
+						{"name": "Portfolio"},
+						{"name": "Strona restauracji/firmy"},
+						{"name": "Optymalizacja SEO"},
+						{"name": "One page"}
+					]
+				},
+				"medium":{
+					"fruit": "🫐",
+					"color": "text-blue-600",
+					"class": "bg-[#0284C730] border border-1 border-blue-600/50",
+					"title": "🫐 Borówka",
+					"price": "1900 - 2600ZŁ",
+					"subtitle": "Idealne dla średniego biznesu",
+					"props": [
+						{"name": "Katalog produktów"},
+						{"name": "Portfolio"},
+						{"name": "Strona restauracji/firmy"},
+						{"name": "Optymalizacja SEO"},
+						{"name": "Blog"},
+						{"name": "Zabezpieczenie przed atakami"}
+					]
+				},
+				"big":{
+					"fruit": "🍌",
+					"color": "text-yellow-600",
+					"class": "bg-[#EAB30830] border border-1 border-yellow-600/50",
+					"title": "🍌 Banan",
+					"price": "3000 - 6000ZŁ",
+					"subtitle": "Idealne dla dużego biznesu",
+					"props": [
+						{"name": "Zabezpieczenie przed atakami"},
+						{"name": "Katalog produktów"},
+						{"name": "Optymalizacja SEO"},
+						{"name": "System zamówień"},
+						{"name": "E-Sklep"},
+						{"name": "WCAG"},
+						{"name": "Blog"}
+					]
+				},
+				"custom":{
+					"fruit": "🥝",
+					"color": "text-green-600",
+					"class": "bg-[#08ea3130] border border-1 border-green-600/50",
+					"title": "🥝 Kiwi",
+					"price": "???ZŁ",
+					"subtitle": "Dostosowane pod Twoje wymagania",
+					"props": [
+						{"name": "W pełni dostosowane pod Twoje wymagania"},
+						{"name": "Priorytet w pomocy"},
+						{"name": "Priorytet w tworzeniu strony"}
+					]
+				}
+			},
+"logo": {
+				"small":{
+					"fruit": "🍓",
+					"color": "text-red-600",
+					"class": "bg-[#F43F5E30] border border-1 border-red-600/50",
+					"title": "🍓 Truskawka",
+					"price": "200 - 650ZŁ",
+					"subtitle": "Stylowe rozwiązania na każdą kieszeń",
+					"props": [
+						{"name": "3 koncepty"},
+						{"name": "Logo wysokiej jakości"},
+						{"name": "Pliki wysokiej rozdzielczości"},
+						{"name": "5 Zmian"},
+						{"name": "Pliki do druku"},
+						{"name": "Plik wektorowy"}
+					]
+				},
+				"medium":{
+					"fruit": "🫐",
+					"color": "text-blue-600",
+					"class": "bg-[#0284C730] border border-1 border-blue-600/50",
+					"title": "🫐 Borówka",
+					"price": "650 - 1300ZŁ",
+					"subtitle": "Profesjonalizm i kreatywność w rozsądnej cenie",
+					"props": [
+						{"name": "Do 5 konceptów"},
+						{"name": "Logo wysokiej jakości"},
+						{"name": "Pliki w wysokiej rozdzielczości i edytowalne"},
+						{"name": "Zmiany bez limitu"},
+						{"name": "Pliki do druku"},
+						{"name": "Plik wektorowy"},
+						{"name": "Mini brand book"}
+					]
+				},
+				"big":{
+					"fruit": "🍌",
+					"color": "text-yellow-600",
+					"class": "bg-[#EAB30830] border border-1 border-yellow-600/50",
+					"title": "🍌 Banan",
+					"price": "1300 - 2500ZŁ",
+					"subtitle": "Luksusowe logo, które wyróżni Twoją markę",
+					"props": [
+						{"name": "Do 8 konceptów"},
+						{"name": "Logo wysokiej jakości"},
+						{"name": "Pliki w wysokiej rozdzielczości i edytowalne"},
+						{"name": "Zmiany bez limitu"},
+						{"name": "Pliki do druku"},
+						{"name": "Plik wektorowy"},
+						{"name": "Pełny brand book i instrukcja obsługi logo"},
+						{"name": "Zestaw grafik na social media"},
+						{"name": "3D Mockup"}
+					]
+				}
+			},
+			"button" : "Rozpocznij"
 		}
 	}
 }

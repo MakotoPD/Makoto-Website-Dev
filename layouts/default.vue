@@ -28,9 +28,9 @@
 					<NuxtLink class="hover:text-gray-200 duration-300" :to="localePath('/MyStack')">
 						{{ $t('menu.mystack') }}
 					</NuxtLink>
-					<!-- <NuxtLink class="hover:text-gray-200 duration-300" :to="localePath('/Blog')">
-						{{ $t('menu.blog') }}
-					</NuxtLink> -->
+					<NuxtLink class="hover:text-gray-200 duration-300" :to="localePath('/Pricing')">
+						{{ $t('menu.pricing') }}
+					</NuxtLink>
 				</div>
 				<div class="absolute right-4 -bottom-8 h-8 w-20 flex justify-center items-center rounded-b-md font-semibold bg-blue-400/90">
 					<select v-model="locale" class="bg-transparent text-white">
@@ -42,7 +42,7 @@
 			<img src="/gradientBG.png" alt="background" class="h-10 w-fit">
 		</header>
 
-		<header id="mobileNav" class="ease-in-out duration-300 z-[100] grid grid-cols-4 bg-gray-700/40 backdrop-blur-md fixed bottom-2 left-1/2 -translate-x-1/2 py-2 px-4 md:hidden w-11/12 border border-gray-500 rounded-2xl">
+		<header id="mobileNav" class="ease-in-out duration-300 z-[100] grid grid-cols-5 bg-gray-700/40 backdrop-blur-md fixed bottom-2 left-1/2 -translate-x-1/2 py-2 px-4 md:hidden w-11/12 border border-gray-500 rounded-2xl">
 			<NuxtLink :to="localePath('/Portfolio')" class="mobileMenu py-1 flex flex-col -space-y-0.5 items-center">
 				<i class='text-white/90 bx-sm bx bxs-image-alt'></i>
 				<p class="text-white/80 text-xs text-center">{{ $t('menu.portfolio') }}</p>
@@ -59,10 +59,10 @@
 				<i class='text-white/90 bx-sm bx bxl-codepen'></i>
 				<p class="text-white/80 text-xs text-center">{{ $t('menu.mystack') }}</p>
 			</NuxtLink>
-			<!-- <NuxtLink :to="localePath('/Blog')" class="mobileMenu py-1 flex flex-col -space-y-0.5 items-center">
-				<i class='text-white/90 bx-sm bx bxs-customize'></i>
-				<p class="text-white/80 text-xs text-center">{{ $t('menu.blog') }}</p>
-			</NuxtLink> -->
+			<NuxtLink :to="localePath('/Pricing')" class="mobileMenu py-1 flex flex-col -space-y-0.5 items-center">
+				<i class='text-white/90 bx-sm bx bx-money'></i>
+				<p class="text-white/80 text-xs text-center">{{ $t('menu.pricing') }}</p>
+			</NuxtLink>
 		</header>
 		<slot />
 

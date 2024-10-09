@@ -91,6 +91,8 @@ export default defineNuxtConfig({
 		'@nuxtjs/google-fonts',
 		'@nuxtjs/robots',
 		'@nuxtjs/sitemap',
+		'@nuxt/scripts',
+		'@nuxtjs/turnstile',
 	],
 
 	devtools: { enabled: true },
@@ -155,6 +157,10 @@ export default defineNuxtConfig({
 		sources: [
 			'/api/__sitemap__/urls',
 		  ]
+	},
+
+	turnstile: {
+		siteKey: '0x4AAAAAAAxGvwa4GQYTMGvI',
 	},
 
 	css: [

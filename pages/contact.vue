@@ -52,7 +52,7 @@
 						</div>
 						<div>
 							<label for="phone" class="block mb-2 text-sm font-medium  text-white">{{ $t('page.contact.Form.phone') }}<span class="text-gray-600 text-xs px-2">({{ $t('page.contact.Form.optional') }})</span></label>
-							<input v-model="phone" type="tel" id="phone" class="border text-sm rounded-lg block w-full p-2.5  bg-gray-700  border-gray-600  placeholder-gray-400  text-white  focus:ring-blue-500  focus:border-blue-500" placeholder="123-456-789" pattern="[0-9]{3} [0-9]{3} [0-9]{3}">
+							<input v-model="phone" type="tel" id="phone" class="border text-sm rounded-lg block w-full p-2.5  bg-gray-700  border-gray-600  placeholder-gray-400  text-white  focus:ring-blue-500  focus:border-blue-500" placeholder="+48 123 456 789">
 						</div>
 						<div>
 							<label for="email" class="block mb-2 text-sm font-medium  text-white">{{ $t('page.contact.Form.email') }}</label>
@@ -75,11 +75,7 @@
 					</div>  
 					
 					<div class="mb-6">
-
-						<vue-hcaptcha @verify="onVerify" @expired="onExpire"  @error="onError" data-theme="dark" sitekey="57e192c4-f39a-4527-afca-511d07140959"></vue-hcaptcha>
-
-						<Alert v-if="error" :text="error" type="error" />
-						<Alert v-if="expired" text="The challenge has expired!" type="error" />
+						<NuxtTurnstile v-if="pageReady" v-model="token" :options="{theme: 'dark', action: 'vue',}" />
 					</div>
 					
 					
@@ -93,9 +89,8 @@
 					<button type="submit" class="flex justify-center items-start gap-2 focus:ring-4 focus:outline-none font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center  bg-blue-600  hover:bg-blue-700  focus:ring-blue-800"> <p>{{ $t('page.contact.Form.btn') }}</p> <i class='mt-px bx bx-xs bx-send'></i></button>
 					
 					<Alert v-if="sendsucces" :text=" $t('page.contact.Form.sendsucces')" type="success" />
-					<Alert v-if="senderror" :text="$t('page.contact.Form.senderror')" type="error" />
-					<Alert v-if="verifiedError" :text="$t('page.contact.Form.verifiedError')" type="error" />
-				
+					<Alert v-if="error" :text="error" type="error" />
+
 				</form>
 			</div>
 		</div>
@@ -103,16 +98,14 @@
 </template>
 
 <script setup lang="ts">
-import VueHcaptcha from '@hcaptcha/vue3-hcaptcha';
 useHead({
 	title: 'Contact - Makoto',
-	script: [
-		{ src: 'https://web3forms.com/client/script.js', async: true, defer: true },
-		{ src: 'https://js.hcaptcha.com/1/api.js', async: true, defer: true}
-	]
 })
 
-
+const pageReady = ref(false)
+onMounted(() => {
+	pageReady.value = true
+})
 
 const WEB3FORMS_ACCESS_KEY = "5570e19a-cefa-433f-8b62-26c58fa27628"
 
@@ -124,40 +117,9 @@ const subject = ref('')
 const message = ref('')
 
 
-const verified = ref(false);
-const expired = ref(false);
 const token = ref("");
-const eKey = ref("");
-const error = ref("");
-const verifiedError = ref(false)
 let sendsucces = ref(false)
-let senderror = ref(false)
-
-function onVerify(tokenStr: string, ekey: string) {
-	verified.value = true;
-	token.value = tokenStr;
-	eKey.value = ekey;
-}
-
-function onExpire() {
-	verified.value = false;
-	token.value = '';
-	eKey.value = '';
-	expired.value = true;
-	console.log('Expired');
-	setTimeout(() => {
-		expired.value = false
-	}, 10000)
-}
-
-function onError(err: string) {
-	token.value = '';
-	eKey.value = '';
-	error.value = err;
-	console.log(`Error: ${err}`);
-}
-
-
+let error = ref('')
 
 
 const submitForm = async () => {
@@ -165,10 +127,10 @@ const submitForm = async () => {
 	if (email.value != "makotopd@icloud.com" && email.value != "contact@makoto.com.pl" && email.value != "contact@makoto.net.pl") {
 
 
-		if(verified.value == false){
-			verifiedError.value = true
+		if(token.value == ''){
+			error.value = 'Cpatcha not resolved, try again'
 			setTimeout(() => {
-				verifiedError.value = false
+				error.value = ''
 			}, 10000)
 		} else {
 
@@ -184,13 +146,11 @@ const submitForm = async () => {
 				name: fname.value + " " + lname.value,
 				email: email.value,
 				phone: phone.value,
-				message: message.value,
-				captcha: token.value
+				message: message.value
 			}),
 			});
 			const result = await response.json();
 			if (result.success) {
-				console.log(result);
 				console.log('Wiadmość wysłana')
 				sendsucces.value = true
 
@@ -203,8 +163,8 @@ const submitForm = async () => {
 				message.value = ''
 			} else if(result.error) {
 				console.log('Błąd wysyłania')
-				console.log(error.value)
-				senderror.value = true
+				console.log(result.error)
+				error.value = result.error
 			}
 		}
 	}

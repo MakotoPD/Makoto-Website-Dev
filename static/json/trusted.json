@@ -23,6 +23,10 @@
 		{
 			"company": "rywal-rhc",
 			"src": "trusted/rywal-rhc.png"
+		},
+		{
+			"company": "samvolvo",
+			"src": "trusted/samvolvo.svg"
 		}
 	]
 }
