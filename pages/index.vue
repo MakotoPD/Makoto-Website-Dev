@@ -155,7 +155,7 @@
 					<div class="max-w-md md:py-24 text-sm lg:text-xl">
 						{{ $t('page.home.Tech.main') }}
 					</div>
-					<nuxt-img src="technology.png" quality="60" alt="technology" class="max-h-64 md:max-h-96" />
+					<nuxt-img src="technology.png" quality="60" alt="technology" class="h-full max-h-64 md:max-h-96" />
 				</div>
 			</div>
 		</div>
