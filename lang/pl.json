@@ -6,6 +6,18 @@
 	"menu.blog": "Blog",
 	"menu.pricing": "Cena",
 
+	"web": {
+		"title": {
+			"home": "Makoto - Strony internetowe, E-Commerce, optymalizacja SEO",
+			"portfolio": "Makoto - Portfolio",
+			"contact": "Makoto - Skontaktuj się ze mną",
+			"mystack": "Makoto - Technkologie które używam",
+			"price": "Makoto - Cena Strony internetowej, E-Sklepu, Grafiki",
+			"privacy": "Makoto - Polityka prywatności"
+		},
+		"desc": "Makoto - Twórca stron internetowych. Doświadczony web developer oferuje nowoczesne, responsywne projekty, optymalizację SEO i wsparcie techniczne. Specjalizuje się w JavaScript, VueJS, React i nie tylko. Twórz z nami wyjątkowe strony internetowe!"
+	},
+
 	"page": {
 		"home": {
 			"title": "Programista stron internetowych oraz projektant graficzny",

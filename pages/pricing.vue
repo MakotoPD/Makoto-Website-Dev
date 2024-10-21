@@ -221,6 +221,28 @@
 </template>
 
 <script setup lang="ts">
+const { t } = useI18n()
+const i18nHead = useLocaleHead({
+  addSeoAttributes: {
+    canonicalQueries: ['en']
+  }
+})
+
+useHead({
+	title: t('web.title.price'),
+	meta: [
+		{ 
+			name: 'description', 
+			content: t('web.description'),
+		}
+	],
+	htmlAttrs: {
+		lang: i18nHead.value.htmlAttrs!.lang
+	},
+})
+
+
+
 let contactFormPopup = ref(false);
 
 let type = ref('')

@@ -98,10 +98,19 @@
 </template>
 
 <script setup lang="ts">
+const { t } = useI18n()
 useHead({
-	title: 'Contact - Makoto',
+	title: t('web.title.contact'),
+	meta: [
+		{ 
+			name: 'description', 
+			content: t('web.description'),
+		}
+	],
+	htmlAttrs: {
+		lang: i18nHead.value.htmlAttrs!.lang
+	},
 })
-
 const pageReady = ref(false)
 onMounted(() => {
 	pageReady.value = true

@@ -120,11 +120,13 @@ export default defineNuxtConfig({
 	i18n: {
 		locales: [{
 				code: 'en',
+				language: 'en-US',
 				iso: 'en-US',
 				file: 'en.json'
 			},
 			{
 				code: 'pl',
+				language: 'pl-PL',
 				iso: 'pl-PL',
 				file: 'pl.json'
 			}

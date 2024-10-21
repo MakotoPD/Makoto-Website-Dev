@@ -256,4 +256,24 @@
 <script setup lang="ts">
 import imgs from '~/static/json/trusted.json'
 
+const { t } = useI18n()
+
+const i18nHead = useLocaleHead({
+  addSeoAttributes: {
+    canonicalQueries: ['en']
+  }
+})
+
+useHead({
+	title: t('web.title.home'),
+	meta: [
+		{ 
+			name: 'description', 
+			content: t('web.description'),
+		}
+	],
+	htmlAttrs: {
+		lang: i18nHead.value.htmlAttrs!.lang
+	},
+})
 </script>

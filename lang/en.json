@@ -6,6 +6,18 @@
 	"menu.blog": "Blog",
 	"menu.pricing": "Pricing",
 
+	"web": {
+		"title": {
+			"home": "Makoto - Websites, E-Commerce, SEO optimization",
+			"portfolio": "Makoto - Portfolio",
+			"contact": "Makoto - Contact me",
+			"mystack": "Makoto - Techniques I use",
+			"price": "Makoto - Price of Website, E-Store, Graphics",
+			"privacy": "Makoto - Privacy policy"
+		},
+		"desc": "Makoto - Web developer. Experienced web developer offers modern, responsive designs, SEO optimization and technical support. Specializing in JavaScript, VueJS, React and more. Create exceptional websites with us!"
+	},
+
 	"page": {
 		"home": {
 			"title": "Website Developer and Graphic designer",
