@@ -1,4 +1,4 @@
 User-agent: *
-Disallow: /_nuxt
+Disallow: /_nuxt/
 
 Sitemap: https://makoto.com.pl/sitemap.xml
